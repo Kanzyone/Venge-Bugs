@@ -81,7 +81,7 @@ Covers issues related to the main interface outside of gameplay, including menus
         <th>Description</th>
     </tr>
     <tr>
-        <td>Veri 1</td>
+        <td>MUI-001</td>
         <td>Veri 2</td>
         <td>Veri 3</td>
         <td>Veri 4</td>
@@ -108,7 +108,7 @@ Includes bugs that occur during active gameplay such as HUD problems, animations
         <th>Description</th>
     </tr>
     <tr>
-        <td>Veri 1</td>
+        <td>IG-001</td>
         <td>Veri 2</td>
         <td>Veri 3</td>
         <td>Veri 4</td>
