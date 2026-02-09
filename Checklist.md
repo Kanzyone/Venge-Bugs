@@ -8,3 +8,55 @@ This checklist is intended to function as a continuously evolving reference. It 
 
 The goal is not only to record individual bugs, but to maintain a structured archive that reflects the overall technical state of the game environment over time.
 
+<h2>Bug Status Overview</h2>
+
+The table below provides a summarized overview of the current state of the documented bug dataset. It presents the overall distribution of issues by priority and status, allowing to quickly understand the scale, severity, and general condition of reported problems across the game.
+
+<br>
+
+<table>
+  <tr>
+    <th>Metric</th>
+    <th>Value</th>
+  </tr>
+
+  <tr>
+    <td>Total Documented Bugs</td>
+    <td>228+</td>
+  </tr>
+
+  <tr>
+    <td>🔴 High Priority</td>
+    <td>71</td>
+  </tr>
+
+  <tr>
+    <td>🟡 Medium Priority</td>
+    <td>106</td>
+  </tr>
+
+  <tr>
+    <td>🟢 Low Priority</td>
+    <td>51</td>
+  </tr>
+
+  <tr>
+    <td>🔳 Active / Pending</td>
+    <td>188</td>
+  </tr>
+
+  <tr>
+    <td>🛠 Possibly Fixed</td>
+    <td>—</td>
+  </tr>
+
+  <tr>
+    <td>✅ Confirmed Fixed</td>
+    <td>40</td>
+  </tr>
+
+  <tr>
+    <td>Last Update</td>
+    <td>8 March 2024</td>
+  </tr>
+</table>
