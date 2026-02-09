@@ -15,6 +15,6 @@ This project is licensed under the Creative Commons Zero 1.0 (CCO-1.O) - see the
 <br>
 
 # Checklist
-The full checklist of documented bugs is available in the file [Bug Checklist](./Bug%20Checklist.txt)
+The full checklist of documented bugs is available in the file [github.com/Kanzyone/Venge-Bugs/blob/main/Checklist.md](https://github.com/Kanzyone/Venge-Bugs/blob/main/Checklist.md)
 
 It provides a structured overview of known issues across different areas of the game, including their status and relative priority.
