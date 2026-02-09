@@ -11,3 +11,10 @@ The repository functions as an open and continuously evolving archive of known i
 License
 
 This project is licensed under the Creative Commons Zero 1.0 (CCO-1.O) - see the [LICENSE](https://github.com/Kanzyone/Venge-Bugs/blob/main/LICENSE) file for details.
+
+<br>
+
+# Checklist
+The full checklist of documented bugs is available in the file [Bug Checklist](./Bug%20Checklist.txt)
+
+It provides a structured overview of known issues across different areas of the game, including their status and relative priority.
