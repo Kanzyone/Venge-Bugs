@@ -6,6 +6,8 @@ By collecting reports from players and presenting them in a consistent format, t
 
 The repository functions as an open and continuously evolving archive of known issues, maintained through community contribution and careful documentation.
 
+<br>
+
 License
 
 This project is licensed under the Creative Commons Zero 1.0 (CCO-1.O) - see the [LICENSE](https://github.com/Kanzyone/Venge-Bugs/blob/main/LICENSE) file for details.
