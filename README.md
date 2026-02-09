@@ -6,6 +6,8 @@ By collecting reports from players and presenting them in a consistent format, t
 
 The repository functions as an open and continuously evolving archive of known issues, maintained through community contribution and careful documentation.
 
+_This is an unofficial project and is not directly affiliated with the Venge.io development team. All content is based on player observations and reports._
+
 <br>
 
 License
@@ -18,3 +20,5 @@ This project is licensed under the Creative Commons Zero 1.0 (CCO-1.O) - see the
 The full checklist of documented bugs is available in the file [github.com/Kanzyone/Venge-Bugs/blob/main/Checklist.md](https://github.com/Kanzyone/Venge-Bugs/blob/main/Checklist.md)
 
 It provides a structured overview of known issues across different areas of the game, including their status and relative priority.
+
+<br>
