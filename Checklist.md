@@ -28,27 +28,27 @@ The table below provides a summarized overview of the current state of the docum
   </tr>
 
   <tr>
-    <td>🔴 High Priority</td>
+    <td>High Priority</td>
     <td>71</td>
   </tr>
 
   <tr>
-    <td>🟡 Medium Priority</td>
+    <td>Medium Priority</td>
     <td>106</td>
   </tr>
 
   <tr>
-    <td>🟢 Low Priority</td>
+    <td>Low Priority</td>
     <td>51</td>
   </tr>
 
   <tr>
-    <td>✅ Confirmed Fixed</td>
+    <td>Confirmed Fixed</td>
     <td>40</td>
   </tr>
  
   <tr>
-    <td>🔳 Active / Pending</td>
+    <td>Active / Pending</td>
     <td>188</td>
   </tr>
   
