@@ -6,3 +6,6 @@ By collecting reports from players and presenting them in a consistent format, t
 
 The repository functions as an open and continuously evolving archive of known issues, maintained through community contribution and careful documentation.
 
+License
+
+This project is licensed under the Massachusetts Institute of Technology (MIT) - see the LICENSE file for details.
