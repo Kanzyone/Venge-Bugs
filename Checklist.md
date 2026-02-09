@@ -43,13 +43,8 @@ The table below provides a summarized overview of the current state of the docum
   </tr>
 
   <tr>
-    <td>🔳 Active / Pending</td>
+    <td>⭕️ Active / Pending</td>
     <td>188</td>
-  </tr>
-
-  <tr>
-    <td>🛠 Possibly Fixed</td>
-    <td>—</td>
   </tr>
 
   <tr>
@@ -62,3 +57,238 @@ The table below provides a summarized overview of the current state of the docum
     <td>8 March 2024</td>
   </tr>
 </table>
+
+<br>
+
+<h2>Bug Listings by Category</h2>
+
+The following sections present the documented issues organized by system category. Each table contains individual bug entries with their identification number, current status, priority level and a short description.
+
+These categorized lists are intended to provide a more detailed and structured view of the issues summarized in the overview above, allowing for easier navigation and tracking across different parts of the game.
+
+
+<br>
+
+<strong>Main UI</strong>
+
+Covers issues related to the main interface outside of gameplay, including menus, shop, inventory, login systems, quests, notifications and general user interaction elements.
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Veri 1</td>
+        <td>Veri 2</td>
+        <td>Veri 3</td>
+        <td>Veri 4</td>
+    </tr>
+    <tr>
+        <td>Veri 5</td>
+        <td>Veri 6</td>
+        <td>Veri 7</td>
+        <td>Veri 8</td>
+    </tr>
+</table>
+
+<br>
+
+<strong>In-game</strong>
+
+Includes bugs that occur during active gameplay such as HUD problems, animations, audio, performance issues, mechanics and player interactions.
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Veri 1</td>
+        <td>Veri 2</td>
+        <td>Veri 3</td>
+        <td>Veri 4</td>
+    </tr>
+    <tr>
+        <td>Veri 5</td>
+        <td>Veri 6</td>
+        <td>Veri 7</td>
+        <td>Veri 8</td>
+    </tr>
+</table>
+
+<br>
+
+<strong>Heroes</strong>
+
+Focuses on character specific issues, including abilities, animations, cooldowns, visual effects and hero related mechanics.
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Hero</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Veri 1</td>
+        <td>Veri 2</td>
+        <td>Veri 3</td>
+        <td>Veri 4</td>
+        <td>Veri 5</td>
+    </tr>
+    <tr>
+        <td>Veri 5</td>
+        <td>Veri 6</td>
+        <td>Veri 7</td>
+        <td>Veri 8</td>
+       <td>Veri 9</td>
+    </tr>
+</table>
+
+<br>
+
+<strong>Weapons</strong>
+
+Contains problems related to weapon behavior such as firing mechanics, reload timing, positioning, textures and damage registration.
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Weapon</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Veri 1</td>
+        <td>Veri 2</td>
+        <td>Veri 3</td>
+        <td>Veri 4</td>
+        <td>Veri 5</td>
+    </tr>
+    <tr>
+        <td>Veri 5</td>
+        <td>Veri 6</td>
+        <td>Veri 7</td>
+        <td>Veri 8</td>
+       <td>Veri 9</td>
+    </tr>
+</table>
+
+<br>
+
+<strong>Maps</strong>
+
+Covers environment related issues including terrain bugs, collision problems, lighting inconsistencies, exploit spots and map specific gameplay errors.
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Map</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Veri 1</td>
+        <td>Veri 2</td>
+        <td>Veri 3</td>
+        <td>Veri 4</td>
+        <td>Veri 5</td>
+    </tr>
+    <tr>
+        <td>Veri 5</td>
+        <td>Veri 6</td>
+        <td>Veri 7</td>
+        <td>Veri 8</td>
+       <td>Veri 9</td>
+    </tr>
+</table>
+
+<br>
+
+<strong>Social Hub</strong>
+
+Includes bugs related to player profiles, inventory, marketplace, clans, leaderboards and social interaction systems.
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Veri 1</td>
+        <td>Veri 2</td>
+        <td>Veri 3</td>
+        <td>Veri 4</td>
+    </tr>
+    <tr>
+        <td>Veri 5</td>
+        <td>Veri 6</td>
+        <td>Veri 7</td>
+        <td>Veri 8</td>
+    </tr>
+</table>
+
+<br>
+
+<strong>Map Editor</strong>
+
+Focuses on issues within the map creation tool such as object placement, collision handling, saving/loading errors and editor mechanics.
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Veri 1</td>
+        <td>Veri 2</td>
+        <td>Veri 3</td>
+        <td>Veri 4</td>
+    </tr>
+    <tr>
+        <td>Veri 5</td>
+        <td>Veri 6</td>
+        <td>Veri 7</td>
+        <td>Veri 8</td>
+    </tr>
+</table>
+
+<br>
+
+<strong>Client</strong>
+
+Reserved for technical issues related to the game client itself, such as system-level behavior, performance or platform specific problems.
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Veri 1</td>
+        <td>Veri 2</td>
+        <td>Veri 3</td>
+        <td>Veri 4</td>
+    </tr>
+    <tr>
+        <td>Veri 5</td>
+        <td>Veri 6</td>
+        <td>Veri 7</td>
+        <td>Veri 8</td>
+    </tr>
+</table>
+
+<br>
+
