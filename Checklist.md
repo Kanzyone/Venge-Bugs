@@ -8,6 +8,8 @@ This checklist is intended to function as a continuously evolving reference. It 
 
 The goal is not only to record individual bugs, but to maintain a structured archive that reflects the overall technical state of the game environment over time.
 
+<br>
+
 <h2>Bug Status Overview</h2>
 
 The table below provides a summarized overview of the current state of the documented bug dataset. It presents the overall distribution of issues by priority and status, allowing to quickly understand the scale, severity, and general condition of reported problems across the game.
