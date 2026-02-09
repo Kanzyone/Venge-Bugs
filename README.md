@@ -8,4 +8,4 @@ The repository functions as an open and continuously evolving archive of known i
 
 License
 
-This project is licensed under the Massachusetts Institute of Technology (MIT) - see the LICENSE file for details.
+This project is licensed under the Creative Commons Zero 1.0 (CCO-1.O) - see the [LICENSE]() file for details.
