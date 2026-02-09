@@ -23,16 +23,17 @@ The full checklist of documented bugs is available in the file [github.com/Kanzy
   <ul>
     
    <li>Bug Checklist</li>
-   <li>test</li>
+   <li>Bug Status Overview</li>
    
    <li>test
      <ul>
-       <li>test</li>
-       <li>test</li>
-       <li>test</li>
-       <li>test</li>
-       <li>test</li>
-       <li>test</li>
+       <li>Main UI</li>
+       <li>In-game</li>
+       <li>Heroes</li>
+       <li>Weapons</li>
+       <li>Maps</li>
+       <li>Social Hub</li>
+       <li>Client</li>
      </ul>
    </li>
     
