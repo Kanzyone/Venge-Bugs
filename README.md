@@ -32,8 +32,8 @@ The full checklist of documented bugs is available in the file [github.com/Kanzy
        <li>Heroes</li>
        <li>Weapons</li>
        <li>Maps</li>
-       <li>Map Editor</li>
        <li>Social Hub</li>
+       <li>Map Editor</li>
        <li>Client</li>
      </ul>
    </li>
