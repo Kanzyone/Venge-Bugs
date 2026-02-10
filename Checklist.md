@@ -466,8 +466,8 @@ Focuses on issues within the map creation tool such as object placement, collisi
 <tr><td>EDT#M015</td><td align="center">-</td><td align="center">🟡</td><td>Placement</td><td>When two assets share the same coordinates, they visually glitch and behave unpredictably.</td></tr>
 
 <!-- 🟢 LOW PRIORITY -->
-<tr><td>EDT#M016</td><td align="center">-</td><td align="center">🟢</td><td>UI</td><td>Asset selection list resets to the first item after every playtest.</td></tr>
-<tr><td>EDT#017</td><td align="center">-</td><td align="center">🟢</td><td>Assets</td><td>Some editor asset sizes do not match the scale of official map assets (too big or too small).</td></tr>
+<tr><td>EDT#L016</td><td align="center">-</td><td align="center">🟢</td><td>UI</td><td>Asset selection list resets to the first item after every playtest.</td></tr>
+<tr><td>EDT#L017</td><td align="center">-</td><td align="center">🟢</td><td>Assets</td><td>Some editor asset sizes do not match the scale of official map assets (too big or too small).</td></tr>
 
 </table>
 
