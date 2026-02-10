@@ -8,6 +8,7 @@ The repository functions as an open and continuously evolving archive of known i
 
 _This is an unofficial project and is not directly affiliated with the Venge.io development team. All content is based on player observations and reports._
 
+If you have any questions, suggestions, or feedback, feel free to reach out on Discord: [kanzyone](https://discord.com/users/1238205250461106230).
 <br>
 
 License
