@@ -19,28 +19,6 @@ This project is licensed under the Creative Commons Zero 1.0 (CCO-1.O) - see the
 # Checklist
 The full checklist of documented bugs is available in the file [github.com/Kanzyone/Venge-Bugs/blob/main/Checklist.md](https://github.com/Kanzyone/Venge-Bugs/blob/main/Checklist.md)
 
-<ol>
-  <ul>
-    
-   <li>Bug Checklist</li>
-   <li>Bug Status Overview</li>
-   
-   <li>Bug Listings by Category
-     <ul>
-       <li><a href="#mainui">Main UI</a></li>
-       <li>In-game</li>
-       <li>Heroes</li>
-       <li>Weapons</li>
-       <li>Maps</li>
-       <li>Social Hub</li>
-       <li>Map Editor</li>
-       <li>Client</li>
-     </ul>
-   </li>
-    
- </ul>
-</ol>
-
 It provides a structured overview of known issues across different areas of the game, including their status and relative priority.
 
 <br>
