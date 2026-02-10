@@ -288,18 +288,41 @@ Focuses on character specific issues, including abilities, animations, cooldowns
         <th>Description</th>
     </tr>
 
+<!-- 🔴 HIGH PRIORITY -->
 <tr><td>HER#H001</td><td align="center">-</td><td align="center">🔴</td><td>Lilium</td><td>If Lilium dies while her grenade is still mid-air, the grenade disappears and deals no damage.</td></tr>
+<tr><td>HER#H002</td><td align="center">-</td><td align="center">🔴</td><td>Echo</td><td>Echo’s grapple sometimes registers damage but the hook itself is not visually thrown, or becomes invisible mid-use.</td></tr>
+<tr><td>HER#H003</td><td align="center">-</td><td align="center">🔴</td><td>Echo</td><td>Echo’s axe occasionally does no damage even when it clearly connects with the enemy.</td></tr>
+<tr><td>HER#H004</td><td align="center">-</td><td align="center">🔴</td><td>Kulu</td><td>Kulu cannot be unlocked with VGs anymore and the Kulu quest does not activate until another unrelated quest is completed.</td></tr>
+<tr><td>HER#H005</td><td align="center">-</td><td align="center">🔴</td><td>Kulu</td><td>Totems deactivate whenever any player dies or whenever any Kulu in the match gets a gun kill.</td></tr>
+<tr><td>HER#006</td><td align="center">-</td><td align="center">🔴</td><td>Kulu</td><td>Kulu does not get upranked after a melee kill in GunGame; only the enemy gets deranked.</td></tr>
 
-<tr><td>HER#M002</td><td align="center">-</td><td align="center">🟡</td><td>Lilium</td><td>Lilium’s grenade color appears pale pink instead of the usual darker tone and explodes slightly earlier than expected.</td></tr>
-<tr><td>HER#M003</td><td align="center">-</td><td align="center">🟡</td><td>All</td><td>Grenade throw audio is too quiet unless the explosion occurs very close to the player.</td></tr>
-<tr><td>HER#M003</td><td align="center">-</td><td align="center">🟡</td><td>Lilium</td><td>Grenades behave inconsistently: sometimes pass through the ground, stick to it, or bounce unpredictably.</td></tr>
+<!-- 🟡 MEDIUM PRIORITY -->
+<tr><td>HER#M007</td><td align="center">-</td><td align="center">🟡</td><td>Lilium</td><td>Lilium’s grenade color appears pale pink instead of the usual darker tone and explodes slightly earlier than expected.</td></tr>
+<tr><td>HER#M008</td><td align="center">-</td><td align="center">🟡</td><td>All</td><td>Grenade throw audio is too quiet unless the explosion occurs very close to the player.</td></tr>
+<tr><td>HER#M009</td><td align="center">-</td><td align="center">🟡</td><td>Lilium</td><td>Grenades behave inconsistently: sometimes pass through the ground, stick to it, or bounce unpredictably.</td></tr>
+<tr><td>HER#M010</td><td align="center">-</td><td align="center">🟡</td><td>Shin</td><td>Shin's hand positioning with some weapons like tec-9 and deagle is weird</td></tr>
+<tr><td>MUI#M011</td><td align="center">-</td><td align="center">🟡</td><td>Kulu</td><td>Kulu’s staff can be placed on any collision surface; it should only be usable on ground terrain.</td></tr>
+<tr><td>MUI#M012</td><td align="center">-</td><td align="center">🟡</td><td>Kulu</td><td>Kulu’s staff sometimes does not work on sloped surfaces and only functions reliably on flat ground.</td></tr>
+<tr><td>MUI#M013</td><td align="center">-</td><td align="center">🟡</td><td>Kulu</td><td>Totems can be spawned inside or attached to walls, roofs, rocks, water, and other collidable objects instead of only ground.</td></tr>
+<tr><td>MUI#M014</td><td align="center">-</td><td align="center">🟡</td><td>Kulu</td><td>Players can climb walls and reach high ground by repeatedly placing totems and spamming jump.</td></tr>
 
-<tr><td>HER#L004</td><td align="center">-</td><td align="center">🟢</td><td>Lilium</td><td>Lilium's dress overlaps and clips into her thigh while standing.</td></tr>
-<tr><td>HER#L005</td><td align="center">-</td><td align="center">🟢</td><td>Cyborg</td><td>Cyborg skin appears fully black in-game and is not visible on the main UI.</td></tr>
+<!-- 🟢 LOW PRIORITY -->
+<tr><td>HER#L015</td><td align="center">-</td><td align="center">🟢</td><td>Lilium</td><td>Lilium's dress overlaps and clips into her thigh while standing.</td></tr>
+<tr><td>HER#L016</td><td align="center">-</td><td align="center">🟢</td><td>Cyborg</td><td>Cyborg skin appears fully black in-game and is not visible on the main UI.</td></tr>
+<tr><td>HER#L017</td><td align="center">-</td><td align="center">🟢</td><td>Echo</td><td>Echo’s grapple can sometimes pull the player outside the map boundaries if used at certain angles.</td></tr>
+<tr><td>HER#L026</td><td align="center">-</td><td align="center">🟢</td><td>Kulu</td><td>Kulu’s emission ability no longer appears to function.</td></tr>
+<tr><td>HER#L027</td><td align="center">-</td><td align="center">🟢</td><td>Kulu</td><td>Only the default dance works for Kulu; other dances cannot be used.</td></tr>
 
-<tr><td>HER#H006</td><td align="center">Fixed</td><td align="center">✅</td><td>Hammer</td><td>Hammer/Mallet attacks were inaccurate and hit noticeably left of the crosshair.</td></tr>
-<tr><td>HER#H007</td><td align="center">Fixed</td><td align="center">✅</td><td>All</td><td>Only Hammer could de-rank enemies in GunGame, giving an unfair advantage over Echo and Kulu.</td></tr>
-<tr><td>HER#H008</td><td align="center">Fixed</td><td align="center">✅</td><td>Lilium</td><td>Grenades could be spam-spawned after Lilium died, especially noticeable on mobile devices.</td></tr>
+<!-- FIXED -->
+<tr><td></td></tr>
+<tr><td>Fixed List</td></tr> 
+<tr><td></td></tr>
+<tr><td>HER#H028</td><td align="center">Fixed</td><td align="center">✅</td><td>Hammer</td><td>Hammer/Mallet attacks were inaccurate and hit noticeably left of the crosshair.</td></tr>
+<tr><td>HER#H029</td><td align="center">Fixed</td><td align="center">✅</td><td>All</td><td>Only Hammer could de-rank enemies in GunGame, giving an unfair advantage over Echo and Kulu.</td></tr>
+<tr><td>HER#H030</td><td align="center">Fixed</td><td align="center">✅</td><td>Lilium</td><td>Grenades could be spam-spawned after Lilium died, especially noticeable on mobile devices.</td></tr>
+<tr><td>HER#H031</td><td align="center">Fixed</td><td align="center">✅</td><td>Shin</td><td>Shin Dash doesn't cause any damage sometimes even after intersecting with enemies.</td></tr>
+<tr><td>MUI#L032</td><td align="center">Fixed</td><td align="center">✅</td><td>Kulu</td><td>Egyptian Kulu had a visible tracer effect that could be seen through walls.</td></tr>
+<tr><td>MUI#H033</td><td align="center">Fixed</td><td align="center">✅</td><td>Kulu</td><td>Totems could be spam-spawned after Kulu died, especially noticeable on mobile.</td></tr>
 
 </table>
 
