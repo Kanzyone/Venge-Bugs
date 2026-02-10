@@ -28,37 +28,310 @@ The table below provides a summarized overview of the current state of the docum
   </tr>
 
   <tr>
-    <td>🔴 High Priority</td>
+    <td>High Priority</td>
     <td>71</td>
   </tr>
 
   <tr>
-    <td>🟡 Medium Priority</td>
+    <td>Medium Priority</td>
     <td>106</td>
   </tr>
 
   <tr>
-    <td>🟢 Low Priority</td>
+    <td>Low Priority</td>
     <td>51</td>
   </tr>
 
   <tr>
-    <td>🔳 Active / Pending</td>
-    <td>188</td>
-  </tr>
-
-  <tr>
-    <td>🛠 Possibly Fixed</td>
-    <td>—</td>
-  </tr>
-
-  <tr>
-    <td>✅ Confirmed Fixed</td>
+    <td>Confirmed Fixed</td>
     <td>40</td>
   </tr>
-
+ 
+  <tr>
+    <td>Active / Pending</td>
+    <td>188</td>
+  </tr>
+  
   <tr>
     <td>Last Update</td>
     <td>8 March 2024</td>
   </tr>
 </table>
+
+<br>
+
+<h2>Bug Listings by Category</h2>
+
+The following sections present the documented issues organized by system category. Each table contains individual bug entries with their identification number, current status, priority level and a short description.
+
+These categorized lists are intended to provide a more detailed and structured view of the issues summarized in the overview above, allowing for easier navigation and tracking across different parts of the game.
+
+
+<br>
+
+<strong>Main UI</strong>
+
+Covers issues related to the main interface outside of gameplay, including menus, shop, inventory, login systems, quests, notifications and general user interaction elements.
+
+<table>
+  <tr> 
+    <th>ID</th> 
+    <th>Status</th> 
+    <th>Priority</th> 
+    <th>Description</th> 
+  </tr>
+
+  <!-- 🔴 HIGH PRIORITY -->
+  <tr><td>MUI#H001</td><td align="center">🔳</td><td align="center">🔴</td><td>After each match, an advertisement attempts to play but fails to load. This also causes the mouse cursor to lock and disappear on the main UI.</td></tr>
+  <tr><td>MUI#H002</td><td align="center">🔳</td><td align="center">🔴</td><td>Clan chat displays sender names as "Guest" instead of actual usernames.</td></tr>
+  <tr><td>MUI#H003</td><td align="center">🔳</td><td align="center">🔴</td><td>Language setting changes have no effect even after refresh.</td></tr>
+  <tr><td>MUI#H004</td><td align="center">🔳</td><td align="center">🔴</td><td>Newly created clans cannot be deleted because there is no delete button for owners.</td></tr>
+  <tr><td>MUI#H005</td><td align="center">🔳</td><td align="center">🔴</td><td>Watching ads for VGs when opening crates does not add any VGs to the account.</td></tr>
+  <tr><td>MUI#H006</td><td align="center">🔳</td><td align="center">🔴</td><td>New accounts get logged out randomly, especially after closing and reopening the browser.</td></tr>
+  <tr><td>MUI#H007</td><td align="center">🔳</td><td align="center">🔴</td><td>Custom matches expire if the creator does not join within ~10 seconds.</td></tr>
+  <tr><td>MUI#H008</td><td align="center">🔳</td><td align="center">🔴</td><td>Play button sometimes gets stuck with an infinite loading spinner.</td></tr>
+  <tr><td>MUI#H009</td><td align="center">🔳</td><td align="center">🔴</td><td>"An error occurred" alert appears after successfully completing quests.</td></tr>
+
+  <!-- 🟡 MEDIUM PRIORITY -->
+  <tr><td>MUI#M001</td><td align="center">🔳</td><td align="center">🟡</td><td>Multiple dances can be selected at the same time in Shop inventory.</td></tr>
+  <tr><td>MUI#M002</td><td align="center">🔳</td><td align="center">🟡</td><td>No online/offline indicator in the new Friends and Messages system.</td></tr>
+  <tr><td>MUI#M003</td><td align="center">🔳</td><td align="center">🟡</td><td>Emojis shown before usernames remain even after the emoji is sold.</td></tr>
+  <tr><td>MUI#M004</td><td align="center">🔳</td><td align="center">🟡</td><td>Inbox does not update in real time: must reopen to see new messages.</td></tr>
+  <tr><td>MUI#M005</td><td align="center">🔳</td><td align="center">🟡</td><td>Unfavoriting an item triggers a blank alert popup.</td></tr>
+  <tr><td>MUI#M006</td><td align="center">🔳</td><td align="center">🟡</td><td>Quests may give inconsistent rewards and Kulu’s quest can appear multiple times.</td></tr>
+  <tr><td>MUI#M007</td><td align="center">🔳</td><td align="center">🟡</td><td>Free skin notification causes visible performance lag while active.</td></tr>
+  <tr><td>MUI#M008</td><td align="center">🔳</td><td align="center">🟡</td><td>Quest claim button in Profile: Quests does not respond.</td></tr>
+  <tr><td>MUI#M009</td><td align="center">🔳</td><td align="center">🟡</td><td>Ad reward notifications appear too frequently instead of after cooldown.</td></tr>
+  <tr><td>MUI#M010</td><td align="center">🔳</td><td align="center">🟡</td><td>Free skin popup stays visible throughout matches and does not disappear.</td></tr>
+  <tr><td>MUI#M011</td><td align="center">🔳</td><td align="center">🟡</td><td>"Already claimed reward" alert repeatedly appears after refresh.</td></tr>
+  <tr><td>MUI#M012</td><td align="center">🔳</td><td align="center">🟡</td><td>Irrelevant system alerts appear after page refresh.</td></tr>
+  <tr><td>MUI#M013</td><td align="center">🔳</td><td align="center">🟡</td><td>LMG cannot be unlocked from loadout even when requirements are met.</td></tr>
+
+  <!-- 🟢 LOW PRIORITY -->
+  <tr><td>MUI#L001</td><td align="center">🔳</td><td align="center">🟢</td><td>Main UI character model no longer plays idle animations.</td></tr>
+  <tr><td>MUI#L002</td><td align="center">🔳</td><td align="center">🟢</td><td>Equipped skins sometimes do not visually apply after navigating menus.</td></tr>
+  <tr><td>MUI#L003</td><td align="center">🔳</td><td align="center">🟢</td><td>No lock icons displayed for locked M4 and AK47 weapons.</td></tr>
+  <tr><td>MUI#L004</td><td align="center">🔳</td><td align="center">🟢</td><td>Register button logs in users instead of creating a new account.</td></tr>
+  <tr><td>MUI#L005</td><td align="center">🔳</td><td align="center">🟢</td><td>Friends list shows account age instead of last online time.</td></tr>
+  <tr><td>MUI#L006</td><td align="center">🔳</td><td align="center">🟢</td><td>Logging into one sub domain does not log the user into others.</td></tr>
+  <tr><td>MUI#L007</td><td align="center">🔳</td><td align="center">🟢</td><td>Kulu’s quest appears as a normal quest even after being unlocked.</td></tr>
+  <tr><td>MUI#L008</td><td align="center">🔳</td><td align="center">🟢</td><td>Multi quick sell does not sell multiple copies even when quantity is entered.</td></tr>
+
+  <!-- FIXED -->
+  <tr><td>MUI#F001</td><td align="center">Fixed</td><td align="center">🟡</td><td>Ad reward popup exceeding daily limit.</td></tr>
+  <tr><td>MUI#F002</td><td align="center">Fixed</td><td align="center">🟢</td><td>Skin equip delay in inventory.</td></tr>
+  <tr><td>MUI#F003</td><td align="center">Fixed</td><td align="center">🟢</td><td>Resolution range mismatch between menus.</td></tr>
+  <tr><td>MUI#F004</td><td align="center">Fixed</td><td align="center">🟢</td><td>Crate unlock sound playing without enough VGs.</td></tr>
+  <tr><td>MUI#F005</td><td align="center">Fixed</td><td align="center">🟡</td><td>Favorites updating slowly.</td></tr>
+  <tr><td>MUI#F006</td><td align="center">Fixed</td><td align="center">🔴</td><td>In-game inventory not scrollable.</td></tr>
+  <tr><td>MUI#F007</td><td align="center">Fixed</td><td align="center">🔴</td><td>Blocking users in inbox not working.</td></tr>
+  <tr><td>MUI#F008</td><td align="center">Fixed</td><td align="center">🟡</td><td>Daily rewards not giving skins.</td></tr>
+  <tr><td>MUI#F009</td><td align="center">Fixed</td><td align="center">🔴</td><td>Daily rewards claimable without watching ads.</td></tr>
+  <tr><td>MUI#F010</td><td align="center">Fixed</td><td align="center">🟡</td><td>Lighting from previous match affecting main UI.</td></tr>
+  <tr><td>MUI#F011</td><td align="center">Fixed</td><td align="center">🔴</td><td>Password change requiring email change.</td></tr>
+  <tr><td>MUI#F012</td><td align="center">Fixed</td><td align="center">🟡</td><td>Clan info update not saving.</td></tr>
+
+</table>
+
+
+
+
+
+<br>
+
+<strong>In-game</strong>
+
+Includes bugs that occur during active gameplay such as HUD problems, animations, audio, performance issues, mechanics and player interactions.
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>IG-001</td>
+        <td>Veri 2</td>
+        <td>Veri 3</td>
+        <td>Veri 4</td>
+    </tr>
+    <tr>
+        <td>Veri 5</td>
+        <td>Veri 6</td>
+        <td>Veri 7</td>
+        <td>Veri 8</td>
+    </tr>
+</table>
+
+<br>
+
+<strong>Heroes</strong>
+
+Focuses on character specific issues, including abilities, animations, cooldowns, visual effects and hero related mechanics.
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Hero</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Veri 1</td>
+        <td>Veri 2</td>
+        <td>Veri 3</td>
+        <td>Veri 4</td>
+        <td>Veri 5</td>
+    </tr>
+    <tr>
+        <td>Veri 5</td>
+        <td>Veri 6</td>
+        <td>Veri 7</td>
+        <td>Veri 8</td>
+       <td>Veri 9</td>
+    </tr>
+</table>
+
+<br>
+
+<strong>Weapons</strong>
+
+Contains problems related to weapon behavior such as firing mechanics, reload timing, positioning, textures and damage registration.
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Weapon</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Veri 1</td>
+        <td>Veri 2</td>
+        <td>Veri 3</td>
+        <td>Veri 4</td>
+        <td>Veri 5</td>
+    </tr>
+    <tr>
+        <td>Veri 5</td>
+        <td>Veri 6</td>
+        <td>Veri 7</td>
+        <td>Veri 8</td>
+       <td>Veri 9</td>
+    </tr>
+</table>
+
+<br>
+
+<strong>Maps</strong>
+
+Covers environment related issues including terrain bugs, collision problems, lighting inconsistencies, exploit spots and map specific gameplay errors.
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Map</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Veri 1</td>
+        <td>Veri 2</td>
+        <td>Veri 3</td>
+        <td>Veri 4</td>
+        <td>Veri 5</td>
+    </tr>
+    <tr>
+        <td>Veri 5</td>
+        <td>Veri 6</td>
+        <td>Veri 7</td>
+        <td>Veri 8</td>
+       <td>Veri 9</td>
+    </tr>
+</table>
+
+<br>
+
+<strong>Social Hub</strong>
+
+Includes bugs related to player profiles, inventory, marketplace, clans, leaderboards and social interaction systems.
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Veri 1</td>
+        <td>Veri 2</td>
+        <td>Veri 3</td>
+        <td>Veri 4</td>
+    </tr>
+    <tr>
+        <td>Veri 5</td>
+        <td>Veri 6</td>
+        <td>Veri 7</td>
+        <td>Veri 8</td>
+    </tr>
+</table>
+
+<br>
+
+<strong>Map Editor</strong>
+
+Focuses on issues within the map creation tool such as object placement, collision handling, saving/loading errors and editor mechanics.
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Veri 1</td>
+        <td>Veri 2</td>
+        <td>Veri 3</td>
+        <td>Veri 4</td>
+    </tr>
+    <tr>
+        <td>Veri 5</td>
+        <td>Veri 6</td>
+        <td>Veri 7</td>
+        <td>Veri 8</td>
+    </tr>
+</table>
+
+<br>
+
+<strong>Client</strong>
+
+Reserved for technical issues related to the game client itself, such as system-level behavior, performance or platform specific problems.
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Status</th>
+        <th>Priority</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Veri 1</td>
+        <td>Veri 2</td>
+        <td>Veri 3</td>
+        <td>Veri 4</td>
+    </tr>
+    <tr>
+        <td>Veri 5</td>
+        <td>Veri 6</td>
+        <td>Veri 7</td>
+        <td>Veri 8</td>
+    </tr>
+</table>
+
+<br>
+
