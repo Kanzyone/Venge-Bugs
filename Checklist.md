@@ -193,7 +193,7 @@ Includes bugs that occur during active gameplay such as HUD problems, animations
 <tr><td>ING#M032</td><td align="center">-</td><td align="center">🟡</td><td>Lighting does not properly affect weapons and hands in official maps; models appear flat regardless of player rotation.</td></tr>
 <tr><td>ING#M033</td><td align="center">-</td><td align="center">🟡</td><td>Terrain lighting looks incorrect on bright skybox maps; shadows appear missing or too weak.</td></tr>
 <tr><td>ING#M034</td><td align="center">-</td><td align="center">🟡</td><td>When a new enemy spawns and you aim at them immediately, they sometimes disappear and relocate to another spawn point.</td></tr>
-<tr><td>ING#H035</td><td align="center">-</td><td align="center">🟡</td><td>Censor Username setting only hides names on the in-game leaderboard; usernames still appear in kill-feed and report lists.</td></tr>
+<tr><td>ING#M035</td><td align="center">-</td><td align="center">🟡</td><td>Censor Username setting only hides names on the in-game leaderboard; usernames still appear in kill-feed and report lists.</td></tr>
 <tr><td>ING#M036</td><td align="center">-</td><td align="center">🟡</td><td>LMG reload time does not match the on-screen reload countdown timer.</td></tr>
 <tr><td>ING#M037</td><td align="center">-</td><td align="center">🟡</td><td>Crack-Hole visual effect sometimes remains floating mid-air after a player is hit with melee or throwable.</td></tr>
 <tr><td>ING#M038</td><td align="center">-</td><td align="center">🟡</td><td>Lilium’s frost bomb overlay does not scale properly with higher FOV or narrower screens, leaving parts of the screen uncovered.</td></tr>
@@ -301,10 +301,10 @@ Focuses on character specific issues, including abilities, animations, cooldowns
 <tr><td>HER#M008</td><td align="center">-</td><td align="center">🟡</td><td>All</td><td>Grenade throw audio is too quiet unless the explosion occurs very close to the player.</td></tr>
 <tr><td>HER#M009</td><td align="center">-</td><td align="center">🟡</td><td>Lilium</td><td>Grenades behave inconsistently: sometimes pass through the ground, stick to it, or bounce unpredictably.</td></tr>
 <tr><td>HER#M010</td><td align="center">-</td><td align="center">🟡</td><td>Shin</td><td>Shin's hand positioning with some weapons like tec-9 and deagle is weird</td></tr>
-<tr><td>MUI#M011</td><td align="center">-</td><td align="center">🟡</td><td>Kulu</td><td>Kulu’s staff can be placed on any collision surface; it should only be usable on ground terrain.</td></tr>
-<tr><td>MUI#M012</td><td align="center">-</td><td align="center">🟡</td><td>Kulu</td><td>Kulu’s staff sometimes does not work on sloped surfaces and only functions reliably on flat ground.</td></tr>
-<tr><td>MUI#M013</td><td align="center">-</td><td align="center">🟡</td><td>Kulu</td><td>Totems can be spawned inside or attached to walls, roofs, rocks, water, and other collidable objects instead of only ground.</td></tr>
-<tr><td>MUI#M014</td><td align="center">-</td><td align="center">🟡</td><td>Kulu</td><td>Players can climb walls and reach high ground by repeatedly placing totems and spamming jump.</td></tr>
+<tr><td>HER#M011</td><td align="center">-</td><td align="center">🟡</td><td>Kulu</td><td>Kulu’s staff can be placed on any collision surface; it should only be usable on ground terrain.</td></tr>
+<tr><td>HER#M012</td><td align="center">-</td><td align="center">🟡</td><td>Kulu</td><td>Kulu’s staff sometimes does not work on sloped surfaces and only functions reliably on flat ground.</td></tr>
+<tr><td>HER#M013</td><td align="center">-</td><td align="center">🟡</td><td>Kulu</td><td>Totems can be spawned inside or attached to walls, roofs, rocks, water, and other collidable objects instead of only ground.</td></tr>
+<tr><td>HER#M014</td><td align="center">-</td><td align="center">🟡</td><td>Kulu</td><td>Players can climb walls and reach high ground by repeatedly placing totems and spamming jump.</td></tr>
 
 <!-- 🟢 LOW PRIORITY -->
 <tr><td>HER#L015</td><td align="center">-</td><td align="center">🟢</td><td>Lilium</td><td>Lilium's dress overlaps and clips into her thigh while standing.</td></tr>
