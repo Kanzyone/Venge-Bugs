@@ -69,7 +69,7 @@ These categorized lists are intended to provide a more detailed and structured v
 
 <br>
 
-<strong>Main UI</strong>
+<strong id="mainui">Main UI</strong>
 
 Covers issues related to the main interface outside of gameplay, including menus, shop, inventory, login systems, quests, notifications and general user interaction elements.
 
@@ -118,18 +118,18 @@ Covers issues related to the main interface outside of gameplay, including menus
   <tr><td>MUI#L008</td><td align="center">🔳</td><td align="center">🟢</td><td>Multi quick sell does not sell multiple copies even when quantity is entered.</td></tr>
 
   <!-- FIXED -->
-  <tr><td>MUI#F001</td><td align="center">Fixed</td><td align="center">🟡</td><td>Ad reward popup exceeding daily limit.</td></tr>
-  <tr><td>MUI#F002</td><td align="center">Fixed</td><td align="center">🟢</td><td>Skin equip delay in inventory.</td></tr>
-  <tr><td>MUI#F003</td><td align="center">Fixed</td><td align="center">🟢</td><td>Resolution range mismatch between menus.</td></tr>
-  <tr><td>MUI#F004</td><td align="center">Fixed</td><td align="center">🟢</td><td>Crate unlock sound playing without enough VGs.</td></tr>
-  <tr><td>MUI#F005</td><td align="center">Fixed</td><td align="center">🟡</td><td>Favorites updating slowly.</td></tr>
-  <tr><td>MUI#F006</td><td align="center">Fixed</td><td align="center">🔴</td><td>In-game inventory not scrollable.</td></tr>
-  <tr><td>MUI#F007</td><td align="center">Fixed</td><td align="center">🔴</td><td>Blocking users in inbox not working.</td></tr>
-  <tr><td>MUI#F008</td><td align="center">Fixed</td><td align="center">🟡</td><td>Daily rewards not giving skins.</td></tr>
-  <tr><td>MUI#F009</td><td align="center">Fixed</td><td align="center">🔴</td><td>Daily rewards claimable without watching ads.</td></tr>
-  <tr><td>MUI#F010</td><td align="center">Fixed</td><td align="center">🟡</td><td>Lighting from previous match affecting main UI.</td></tr>
-  <tr><td>MUI#F011</td><td align="center">Fixed</td><td align="center">🔴</td><td>Password change requiring email change.</td></tr>
-  <tr><td>MUI#F012</td><td align="center">Fixed</td><td align="center">🟡</td><td>Clan info update not saving.</td></tr>
+  <tr><td>MUI#F001</td><td align="center">Fixed</td><td align="center">✅</td><td>-Ad reward popup exceeding daily limit.</td></tr>
+  <tr><td>MUI#F002</td><td align="center">Fixed</td><td align="center">✅</td><td>-Skin equip delay in inventory.</td></tr>
+  <tr><td>MUI#F003</td><td align="center">Fixed</td><td align="center">✅</td><td>-Resolution range mismatch between menus.</td></tr>
+  <tr><td>MUI#F004</td><td align="center">Fixed</td><td align="center">✅</td><td>-Crate unlock sound playing without enough VGs.</td></tr>
+  <tr><td>MUI#F005</td><td align="center">Fixed</td><td align="center">✅</td><td>-Favorites updating slowly.</td></tr>
+  <tr><td>MUI#F006</td><td align="center">Fixed</td><td align="center">✅</td><td>-In-game inventory not scrollable.</td></tr>
+  <tr><td>MUI#F007</td><td align="center">Fixed</td><td align="center">✅</td><td>-Blocking users in inbox not working.</td></tr>
+  <tr><td>MUI#F008</td><td align="center">Fixed</td><td align="center">✅</td><td>-Daily rewards not giving skins.</td></tr>
+  <tr><td>MUI#F009</td><td align="center">Fixed</td><td align="center">✅</td><td>-Daily rewards claimable without watching ads.</td></tr>
+  <tr><td>MUI#F010</td><td align="center">Fixed</td><td align="center">✅</td><td>-Lighting from previous match affecting main UI.</td></tr>
+  <tr><td>MUI#F011</td><td align="center">Fixed</td><td align="center">✅</td><td>-Password change requiring email change.</td></tr>
+  <tr><td>MUI#F012</td><td align="center">Fixed</td><td align="center">✅</td><td>-Clan info update not saving.</td></tr>
 
 </table>
 
@@ -143,25 +143,42 @@ Covers issues related to the main interface outside of gameplay, including menus
 
 Includes bugs that occur during active gameplay such as HUD problems, animations, audio, performance issues, mechanics and player interactions.
 
-<table border="1">
-    <tr>
-        <th>ID</th>
-        <th>Status</th>
-        <th>Priority</th>
-        <th>Description</th>
-    </tr>
-    <tr>
-        <td>IG-001</td>
-        <td>Veri 2</td>
-        <td>Veri 3</td>
-        <td>Veri 4</td>
-    </tr>
-    <tr>
-        <td>Veri 5</td>
-        <td>Veri 6</td>
-        <td>Veri 7</td>
-        <td>Veri 8</td>
-    </tr>
+<table>
+  <tr> 
+    <th>ID</th> 
+    <th>Status</th> 
+    <th>Priority</th> 
+    <th>Description</th> 
+  </tr>
+
+<!-- 🔴 HIGH PRIORITY -->
+<tr><td>ING#H001</td><td align="center">🔳</td><td align="center">🔴</td><td>Reducing in-game resolution also lowers HUD and crosshair resolution, making UI text blurry and crosshair unclear.</td></tr>
+<tr><td>ING#H002</td><td align="center">🔳</td><td align="center">🔴</td><td>Players sometimes get stuck at the instancing spawn point below the map and never appear on the actual terrain.</td></tr>
+<tr><td>ING#H003</td><td align="center">🔳</td><td align="center">🔴</td><td>In-game leaderboard/scoreboard does not update in real time; players who leave remain listed until refresh.</td></tr>
+<tr><td>ING#H004</td><td align="center">🔳</td><td align="center">🔴</td><td>Only one hacker can be vote-kicked per match even if multiple hackers are present.</td></tr>
+<tr><td>ING#H005</td><td align="center">🔳</td><td align="center">🔴</td><td>Switching weapons in-game sometimes triggers an advertisement to play unexpectedly.</td></tr>
+<tr><td>ING#H006</td><td align="center">🔳</td><td align="center">🔴</td><td>Players joining matches (especially guest lobbies) often spawn into games with only ~20–30 seconds remaining instead of a reasonable minimum time.</td></tr>
+
+<!-- 🟡 MEDIUM PRIORITY -->
+<tr><td>ING#M007</td><td align="center">🔳</td><td align="center">🟡</td><td>Direct URLs such as "/?map=MapName" and "/Spectate:CODE" no longer function.</td></tr>
+<tr><td>ING#M008</td><td align="center">🔳</td><td align="center">🟡</td><td>"Hide Announcements" setting does not hide the in-game free skin notification popup.</td></tr>
+<tr><td>ING#M009</td><td align="center">🔳</td><td align="center">🟡</td><td>Potions are not visible in matches until the player uses them once.</td></tr>
+<tr><td>ING#M010</td><td align="center">🔳</td><td align="center">🟡</td><td>Animated texture skins (e.g., Blaze Scar, OLED Tec-9) sometimes play choppy or laggy animations.</td></tr>
+<tr><td>ING#M011</td><td align="center">🔳</td><td align="center">🟡</td><td>Lighting does not properly affect weapons and hands in official maps; models appear flat regardless of player rotation.</td></tr>
+<tr><td>ING#M012</td><td align="center">🔳</td><td align="center">🟡</td><td>Terrain lighting looks incorrect on bright skybox maps; shadows appear missing or too weak.</td></tr>
+<tr><td>ING#M013</td><td align="center">🔳</td><td align="center">🟡</td><td>When a new enemy spawns and you aim at them immediately, they sometimes disappear and relocate to another spawn point.</td></tr>
+
+<!-- 🟢 LOW PRIORITY -->
+<tr><td>ING#L014</td><td align="center">🔳</td><td align="center">🟢</td><td>Charms can clip into weapon models when moving, jumping, or turning at certain angles.</td></tr>
+
+<!-- FIXED -->
+<tr><td></td></tr>
+<tr><td>Fixed List</td></tr> 
+<tr><td></td></tr>
+<tr><td>ING#F015</td><td align="center">Fixed</td><td align="center">✅</td><td>-Enemy HP bars sometimes disappeared in the next match after voting for a new map.</td></tr>
+<tr><td>ING#F016</td><td align="center">Fixed</td><td align="center">✅</td><td>-Reflectivity issues where ground, rocks, and characters appeared overly reflective.</td></tr>
+
+
 </table>
 
 <br>
