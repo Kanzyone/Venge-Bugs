@@ -321,8 +321,8 @@ Focuses on character specific issues, including abilities, animations, cooldowns
 <tr><td>HER#H029</td><td align="center">Fixed</td><td align="center">✅</td><td>All</td><td>Only Hammer could de-rank enemies in GunGame, giving an unfair advantage over Echo and Kulu.</td></tr>
 <tr><td>HER#H030</td><td align="center">Fixed</td><td align="center">✅</td><td>Lilium</td><td>Grenades could be spam-spawned after Lilium died, especially noticeable on mobile devices.</td></tr>
 <tr><td>HER#H031</td><td align="center">Fixed</td><td align="center">✅</td><td>Shin</td><td>Shin Dash doesn't cause any damage sometimes even after intersecting with enemies.</td></tr>
-<tr><td>MUI#L032</td><td align="center">Fixed</td><td align="center">✅</td><td>Kulu</td><td>Egyptian Kulu had a visible tracer effect that could be seen through walls.</td></tr>
-<tr><td>MUI#H033</td><td align="center">Fixed</td><td align="center">✅</td><td>Kulu</td><td>Totems could be spam-spawned after Kulu died, especially noticeable on mobile.</td></tr>
+<tr><td>HER#L032</td><td align="center">Fixed</td><td align="center">✅</td><td>Kulu</td><td>Egyptian Kulu had a visible tracer effect that could be seen through walls.</td></tr>
+<tr><td>HER#H033</td><td align="center">Fixed</td><td align="center">✅</td><td>Kulu</td><td>Totems could be spam-spawned after Kulu died, especially noticeable on mobile.</td></tr>
 
 </table>
 
@@ -333,27 +333,19 @@ Focuses on character specific issues, including abilities, animations, cooldowns
 Contains problems related to weapon behavior such as firing mechanics, reload timing, positioning, textures and damage registration.
 
 <table border="1">
-    <tr>
-        <th>ID</th>
-        <th>Status</th>
-        <th>Priority</th>
-        <th>Weapon</th>
-        <th>Description</th>
-    </tr>
-    <tr>
-        <td>Veri 1</td>
-        <td>Veri 2</td>
-        <td>Veri 3</td>
-        <td>Veri 4</td>
-        <td>Veri 5</td>
-    </tr>
-    <tr>
-        <td>Veri 5</td>
-        <td>Veri 6</td>
-        <td>Veri 7</td>
-        <td>Veri 8</td>
-       <td>Veri 9</td>
-    </tr>
+  
+<tr><td>WEP#M001</td><td align="center">-</td><td align="center">🟡</td><td>Deagle</td><td>The deagle's magazine is weirdly positioned sometimes.</td></tr>
+
+<tr><td>WEP#L002</td><td align="center">-</td><td align="center">🟢</td><td>M4</td><td>The M4 starts out with 20 bullets instead of 25 when you join a game.</td></tr>
+
+<tr><td></td></tr>
+<tr><td>Fixed List</td></tr> 
+<tr><td></td></tr>
+<tr><td>WEP#H003</td><td align="center">Fixed</td><td align="center">✅</td><td>Kulu</td><td>Weapons start out with the same used magazine from last match if you continue to next match. It should be full-mag for every new match.</td></tr>
+
+</table>
+
+<br>
 </table>
 
 <br>
@@ -370,20 +362,33 @@ Covers environment related issues including terrain bugs, collision problems, li
         <th>Map</th>
         <th>Description</th>
     </tr>
-    <tr>
-        <td>Veri 1</td>
-        <td>Veri 2</td>
-        <td>Veri 3</td>
-        <td>Veri 4</td>
-        <td>Veri 5</td>
-    </tr>
-    <tr>
-        <td>Veri 5</td>
-        <td>Veri 6</td>
-        <td>Veri 7</td>
-        <td>Veri 8</td>
-       <td>Veri 9</td>
-    </tr>
+    <!-- 🔴 HIGH PRIORITY -->
+<tr><td>MAP#H001</td><td align="center">-</td><td align="center">🔴</td><td>All Official Maps</td><td>Multiple advantageous/glitch spots exist across official maps that allow players to access unintended positions.</td></tr>
+<tr><td>MAP#H002</td><td align="center">-</td><td align="center">🔴</td><td>All</td><td>Directional cubic lighting bug where lighting shifts in cube-like patterns based on player facing direction.</td></tr>
+
+<!-- 🟡 MEDIUM PRIORITY -->
+<tr><td>MAP#M003</td><td align="center">-</td><td align="center">🟡</td><td>All</td><td>Boxes are extremely slippery, especially in the editor, making movement and climbing inconsistent.</td></tr>
+<tr><td>MAP#M004</td><td align="center">-</td><td align="center">🟡</td><td>All</td><td>Spamming jump on box edges lets players climb them unintentionally (likely tied to slippery collision).</td></tr>
+<tr><td>MAP#M005</td><td align="center">-</td><td align="center">🟡</td><td>Mistle</td><td>Payload sometimes stops moving and does not progress along the route.</td></tr>
+<tr><td>MAP#M006</td><td align="center">-</td><td align="center">🟡</td><td>Mistle</td><td>Cannot select teams in Mistle TDM; team selection only works in custom matches.</td></tr>
+<tr><td>MAP#M007</td><td align="center">-</td><td align="center">🟡</td><td>Mistle</td><td>Teammate HP bars sometimes do not appear; when shooting teammates, the HP bar incorrectly shows as red.</td></tr>
+<tr><td>MAP#M008</td><td align="center">-</td><td align="center">🟡</td><td>Mistle</td><td>Payload hitbox is too large and can trap players inside tight areas like the snake tunnel.</td></tr>
+<tr><td>MAP#M009</td><td align="center">-</td><td align="center">🟡</td><td>SandstormBlitz</td><td>Players can climb large rocks by repeatedly jumping against them.</td></tr>
+<tr><td>MAP#M010</td><td align="center">-</td><td align="center">🟡</td><td>GunGame</td><td>AK-47 is still missing from the GunGame weapon rotation.</td></tr>
+<tr><td>MAP#M011</td><td align="center">-</td><td align="center">🟡</td><td>SandstormBlitz</td><td>Using RMB while gliding triggers the scope and slows glide movement significantly.</td></tr>
+
+<!-- 🟢 LOW PRIORITY -->
+<tr><td>MAP#L0012</td><td align="center">-</td><td align="center">🟢</td><td>All</td><td>Trees do not have hitboxes on their leaves.</td></tr>
+<tr><td>MAP#L013</td><td align="center">-</td><td align="center">🟢</td><td>Mistle</td><td>Rocks near water lack proper hitboxes.</td></tr>
+<tr><td>MAP#L014</td><td align="center">-</td><td align="center">🟢</td><td>Mistle</td><td>Water animation sometimes stops and appears static.</td></tr>
+<tr><td>MAP#L015</td><td align="center">-</td><td align="center">🟢</td><td>Temple</td><td>Some grapple collision points flash but do not function.</td></tr>
+<tr><td>MAP#L016</td><td align="center">-</td><td align="center">🟢</td><td>Tundra</td><td>Minecart tracks exist but no minecart is present; tracks may reduce performance.</td></tr>
+
+<!-- FIXED -->
+<tr><td></td></tr>
+<tr><td>Fixed List</td></tr> 
+<tr><td></td></tr>
+<tr><td>MAP#L017</td><td align="center">Fixed</td><td align="center">✅</td><td>SandstormBlitz</td><td>Gliders were hard to control and Whirlwinds provided too little momentum.</td></tr>
 </table>
 
 <br>
