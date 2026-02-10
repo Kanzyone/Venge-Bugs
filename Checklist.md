@@ -449,26 +449,6 @@ Focuses on issues within the map creation tool such as object placement, collisi
 <strong>Client</strong>
 
 Reserved for technical issues related to the game client itself, such as system-level behavior, performance or platform specific problems.
-<table border="1">
-    <tr>
-        <th>ID</th>
-        <th>Status</th>
-        <th>Priority</th>
-        <th>Description</th>
-    </tr>
-    <tr>
-        <td>Veri 1</td>
-        <td>Veri 2</td>
-        <td>Veri 3</td>
-        <td>Veri 4</td>
-    </tr>
-    <tr>
-        <td>Veri 5</td>
-        <td>Veri 6</td>
-        <td>Veri 7</td>
-        <td>Veri 8</td>
-    </tr>
-</table>
 
 <br>
 
