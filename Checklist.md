@@ -402,20 +402,34 @@ Includes bugs related to player profiles, inventory, marketplace, clans, leaderb
         <th>ID</th>
         <th>Status</th>
         <th>Priority</th>
+        <th>Page</th>
         <th>Description</th>
     </tr>
-    <tr>
-        <td>Veri 1</td>
-        <td>Veri 2</td>
-        <td>Veri 3</td>
-        <td>Veri 4</td>
-    </tr>
-    <tr>
-        <td>Veri 5</td>
-        <td>Veri 6</td>
-        <td>Veri 7</td>
-        <td>Veri 8</td>
-    </tr>
+  
+<!-- 🔴 HIGH PRIORITY -->
+<tr><td>HUB#001</td><td align="center">-</td><td align="center">🔴</td><td>Market</td><td>Unable to view a listing in "My Sales" after putting an item on the market. It only becomes visible after the item is sold.</td></tr>
+<tr><td>HUB#002</td><td align="center">-</td><td align="center">🔴</td><td>Market</td><td>Some items are completely unsellable because they were previously unlockable via adverts.</td></tr>
+<tr><td>HUB#003</td><td align="center">-</td><td align="center">🔴</td><td>Profiles</td><td>Account names starting with "#" cannot be accessed through social.venge.io/#[name].</td></tr>
+
+<!-- 🟡 MEDIUM PRIORITY -->
+<tr><td>HUB#004</td><td align="center">-</td><td align="center">🟡</td><td>Profiles</td><td>"Account is unavailable" alert no longer appears for banned or non-existent users; a blank profile is shown instead.</td></tr>
+<tr><td>HUB#005</td><td align="center">-</td><td align="center">🟡</td><td>Market</td><td>Heat bundle skins cannot be found through market search, likely due to naming/indexing issues.</td></tr>
+<tr><td>HUB#006</td><td align="center">-</td><td align="center">🟡</td><td>Search</td><td>Player search bar only shows 10 results, making it difficult to find the correct user.</td></tr>
+<tr><td>HUB#007</td><td align="center">-</td><td align="center">🟡</td><td>Inventory</td><td>Sold items remain visible in inventory for a while before being removed.</td></tr>
+<tr><td>HUB#008</td><td align="center">-</td><td align="center">🟡</td><td>Leaderboard</td><td>Player search on leaderboard is unreliable; names often appear only after searching twice.</td></tr>
+<tr><td>HUB#009</td><td align="center">-</td><td align="center">🟡</td><td>Clans</td><td>Clan match history only shows the last 4 matches played by a member instead of the full list.</td></tr>
+<tr><td>HUB#010</td><td align="center">-</td><td align="center">🟡</td><td>Login</td><td>Logging in via social.venge.io does not log the user into the main game, but they can still switch weapons/heroes as a Guest.</td></tr>
+<tr><td>HUB#011</td><td align="center">-</td><td align="center">🟡</td><td>Login</td><td>Frequent logouts occur when switching between "Inventory" and "My Sales" tabs.</td></tr>
+<tr><td>HUB#012</td><td align="center">-</td><td align="center">🟡</td><td>Inventory</td><td>Inventory order changes randomly, making it harder to locate items.</td></tr>
+<tr><td>HUB#013</td><td align="center">-</td><td align="center">🟡</td><td>Inventory</td><td>"Default" skins in inventory are confusing since they cannot be listed or sold.</td></tr>
+<tr><td>HUB#014</td><td align="center">-</td><td align="center">🟡</td><td>Leaderboard</td><td>Clan leaderboard search bar searches for users instead of clans.</td></tr>
+
+<!-- 🟢 LOW PRIORITY -->
+<tr><td>HUB#015</td><td align="center">-</td><td align="center">🟢</td><td>Wiki</td><td>Wiki thumbnails were broken and not displaying correctly.</td></tr>
+<tr><td>HUB#016</td><td align="center">-</td><td align="center">🟢</td><td>Items</td><td>Medic skin has incorrect type "Medic" instead of "EchoSkin", causing in-game issues.</td></tr>
+<tr><td>HUB#017</td><td align="center">-</td><td align="center">🟢</td><td>Wiki</td><td>Social hub badges are not listed or documented in the wiki.</td></tr>
+<tr><td>HUB#018</td><td align="center">-</td><td align="center">🟢</td><td>Login</td><td>Login popup overlaps with an existing login form already visible behind it.</td></tr>
+<tr><td>HUB#019</td><td align="center">-</td><td align="center">🟢</td><td>Market</td><td>Some older event items remain unsellable and could be made tradeable.</td></tr>
 </table>
 
 <br>
@@ -428,20 +442,35 @@ Focuses on issues within the map creation tool such as object placement, collisi
         <th>ID</th>
         <th>Status</th>
         <th>Priority</th>
+        <th>Component</th>
         <th>Description</th>
     </tr>
-    <tr>
-        <td>Veri 1</td>
-        <td>Veri 2</td>
-        <td>Veri 3</td>
-        <td>Veri 4</td>
-    </tr>
-    <tr>
-        <td>Veri 5</td>
-        <td>Veri 6</td>
-        <td>Veri 7</td>
-        <td>Veri 8</td>
-    </tr>
+
+<!-- 🔴 HIGH PRIORITY -->
+<tr><td>EDT#H001</td><td align="center">-</td><td align="center">🔴</td><td>Colliders</td><td>Resizing an asset does not resize its collider, causing major collision mismatches.</td></tr>
+<tr><td>EDT#H002</td><td align="center">-</td><td align="center">🔴</td><td>Undo System</td><td>Undo feature works inconsistently; often only reverts the last action and sometimes fails entirely.</td></tr>
+<tr><td>EDT#H003</td><td align="center">-</td><td align="center">🔴</td><td>Saving</td><td>Editor stops allowing maps to be saved/loaded after ~20–30 saves (console error: Maximum call stack size exceeded).</td></tr>
+<tr><td>EDT#H004</td><td align="center">-</td><td align="center">🔴</td><td>Playtest</td><td>Spamming the "Test Map" button quickly can cause the crosshair to stop locking until the page is refreshed.</td></tr>
+
+<!-- 🟡 MEDIUM PRIORITY -->
+<tr><td>EDT#M005</td><td align="center">-</td><td align="center">🟡</td><td>UI</td><td>Random circular markers appear after placing objects and remain even after the object is deleted.</td></tr>
+<tr><td>EDT#M006</td><td align="center">-</td><td align="center">🟡</td><td>Textures</td><td>Objects in the editor and published maps sometimes appear with completely white/missing textures.</td></tr>
+<tr><td>EDT#M007</td><td align="center">-</td><td align="center">🟡</td><td>Colliders</td><td>The "Invisible-Box" collider asset no longer functions properly.</td></tr>
+<tr><td>EDT#M008</td><td align="center">-</td><td align="center">🟡</td><td>Controls</td><td>Pressing Ctrl+D sometimes opens the browser bookmark dialog instead of duplicating an object.</td></tr>
+<tr><td>EDT#M009</td><td align="center">-</td><td align="center">🟡</td><td>Controls</td><td>Pressing R or T during playtest activates rotation/translation handles automatically when returning to build mode.</td></tr>
+<tr><td>EDT#M010</td><td align="center">-</td><td align="center">🟡</td><td>Transforms</td><td>Changing position/rotation by small values can suddenly move the object by a large amount.</td></tr>
+<tr><td>EDT#M011</td><td align="center">-</td><td align="center">🟡</td><td>Rotation</td><td>Rotation handles frequently bug out after rotating an object multiple times.</td></tr>
+<tr><td>EDT#M012</td><td align="center">-</td><td align="center">🟡</td><td>Physics</td><td>Editor physics (gravity, lighting, collisions, positioning) differ significantly from the main game, reducing accuracy of builds.</td></tr>
+<tr><td>EDT#M013</td><td align="center">-</td><td align="center">🟡</td><td>Rotation</td><td>Rotation handles are missing a Z-axis unlike translation and scaling tools.</td></tr>
+<tr><td>EDT#M014</td><td align="center">-</td><td align="center">🟡</td><td>Rotation</td><td>Rotation axis does not visually update after rotating an object; it remains aligned to original orientation.</td></tr>
+<tr><td>EDT#M015</td><td align="center">-</td><td align="center">🟡</td><td>Placement</td><td>When two assets share the same coordinates, they visually glitch and behave unpredictably.</td></tr>
+
+<!-- 🟢 LOW PRIORITY -->
+<tr><td>EDT#M016</td><td align="center">-</td><td align="center">🟢</td><td>UI</td><td>Asset selection list resets to the first item after every playtest.</td></tr>
+<tr><td>EDT#017</td><td align="center">-</td><td align="center">🟢</td><td>Assets</td><td>Some editor asset sizes do not match the scale of official map assets (too big or too small).</td></tr>
+
+</table>
+
 </table>
 
 <br>
