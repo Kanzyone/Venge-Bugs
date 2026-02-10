@@ -27,7 +27,7 @@ The full checklist of documented bugs is available in the file [github.com/Kanzy
    
    <li>Bug Listings by Category
      <ul>
-       <li>Main UI</li>
+       <li><a href="#mainui">Main UI</a></li>
        <li>In-game</li>
        <li>Heroes</li>
        <li>Weapons</li>
