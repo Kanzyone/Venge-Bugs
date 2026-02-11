@@ -24,7 +24,7 @@ It provides a structured overview of known issues across different areas of the 
 <br>
 
 # Issues
-This repository is the main fork that contains the bug documentation, structure and project board used to track progress.
+This repository is the main fork that contains the bug documentation, structure and <code><a href="">project board</a></code> used to track progress.
 Due to GitHub limitations with forks, new Issues cannot be created directly here.
 
 To keep bug tracking active and organized, a separate repository named <code><a href="">issues-vengebugs</a></code> is used to create and manage all Issues. After an Issue is opened there, it is manually linked and added to this repository’s Project Board for centralized planning and tracking.
