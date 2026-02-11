@@ -154,7 +154,6 @@ Includes bugs that occur during active gameplay such as HUD problems, animations
   </tr>
 
 <!-- 🔴 HIGH PRIORITY -->
-<tr><td><a href="https://github.com/users/Kanzyone/projects/5?pane=issue&itemId=156125501&issue=Kanzyone%7Cissues-vengebugs%7C1">ING#H096</a></td><td align="center">-</td><td align="center">🔴</td><td>Map selector on the end-game result screen is not synchronized across players. Different users see different map options, and votes made by others are not visible if that map is missing from the local selector.</td></tr>
 <tr><td>ING#H001</td><td align="center">-</td><td align="center">🔴</td><td>Reducing in-game resolution also lowers HUD and crosshair resolution, making UI text blurry and crosshair unclear.</td></tr>
 <tr><td>ING#H002</td><td align="center">-</td><td align="center">🔴</td><td>Players sometimes get stuck at the instancing spawn point below the map and never appear on the actual terrain.</td></tr>
 <tr><td>ING#H003</td><td align="center">-</td><td align="center">🔴</td><td>In-game leaderboard/scoreboard does not update in real time; players who leave remain listed until refresh.</td></tr>
