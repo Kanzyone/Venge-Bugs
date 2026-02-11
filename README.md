@@ -22,3 +22,11 @@ The full checklist of documented bugs is available in the file [github.com/Kanzy
 It provides a structured overview of known issues across different areas of the game, including their status and relative priority.
 
 <br>
+
+# Issues
+This repository is the main fork that contains the bug documentation, structure and project board used to track progress.
+Due to GitHub limitations with forks, new Issues cannot be created directly here.
+
+To keep bug tracking active and organized, a separate repository named <code>issues-vengebugs</code> is used to create and manage all Issues. After an Issue is opened there, it is manually linked and added to this repository’s Project Board for centralized planning and tracking.
+
+This workflow allows this repository to remain the main hub for organization, status tracking and development overview, while all bug reports are collected in a dedicated space.
