@@ -6,8 +6,6 @@ By collecting reports from players and presenting them in a consistent format, t
 
 The repository functions as an open and continuously evolving archive of known issues, maintained through community contribution and careful documentation.
 
-_This is an unofficial project and is not directly affiliated with the Venge.io development team. All content is based on player observations and reports._
-
 If you have any questions, suggestions, or feedback, feel free to reach out on Discord: [kanzyone](https://discord.com/users/1238205250461106230).
 
 <br>
