@@ -82,7 +82,7 @@ Covers issues related to the main interface outside of gameplay, including menus
   </tr>
 
 <!-- 🔴 HIGH PRIORITY -->
-<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/3">MUI#H001</a></td><td align="center">-</td><td align="center">🔴</td><td>After each match, an advertisement attempts to play but fails to load. This also causes the mouse cursor to lock and disappear on the main UI.</td></tr>
+<tr><td><a href="https://github.com/users/Kanzyone/projects/5/views/1?pane=issue&itemId=156129795&issue=Kanzyone%7Cissues-vengebugs%7C3">MUI#H001</a></td><td align="center">-</td><td align="center">🔴</td><td>After each match, an advertisement attempts to play but fails to load. This also causes the mouse cursor to lock and disappear on the main UI.</td></tr>
 <tr><td><a href="#">MUI#H002</a></td><td align="center">-</td><td align="center">🔴</td><td>Clan chat displays sender names as "Guest" instead of actual usernames.</td></tr>
 <tr><td><a href="#">MUI#H003</a></td><td align="center">-</td><td align="center">🔴</td><td>Language setting changes have no effect even after refresh.</td></tr>
 <tr><td><a href="#">MUI#H004</a></td><td align="center">-</td><td align="center">🔴</td><td>Newly created clans cannot be deleted because there is no delete button for owners.</td></tr>
