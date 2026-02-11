@@ -81,59 +81,58 @@ Covers issues related to the main interface outside of gameplay, including menus
     <th>Description</th> 
   </tr>
 
-  <!-- 🔴 HIGH PRIORITY -->
-  <tr><td>MUI#H001</td><td align="center">-</td><td align="center">🔴</td><td>After each match, an advertisement attempts to play but fails to load. This also causes the mouse cursor to lock and disappear on the main UI.</td></tr>
-  <tr><td>MUI#H002</td><td align="center">-</td><td align="center">🔴</td><td>Clan chat displays sender names as "Guest" instead of actual usernames.</td></tr>
-  <tr><td>MUI#H003</td><td align="center">-</td><td align="center">🔴</td><td>Language setting changes have no effect even after refresh.</td></tr>
-  <tr><td>MUI#H004</td><td align="center">-</td><td align="center">🔴</td><td>Newly created clans cannot be deleted because there is no delete button for owners.</td></tr>
-  <tr><td>MUI#H005</td><td align="center">-</td><td align="center">🔴</td><td>Watching ads for VGs when opening crates does not add any VGs to the account.</td></tr>
-  <tr><td>MUI#H006</td><td align="center">-</td><td align="center">🔴</td><td>New accounts get logged out randomly, especially after closing and reopening the browser.</td></tr>
-  <tr><td>MUI#H007</td><td align="center">-</td><td align="center">🔴</td><td>Custom matches expire if the creator does not join within ~10 seconds.</td></tr>
-  <tr><td>MUI#H008</td><td align="center">-</td><td align="center">🔴</td><td>Play button sometimes gets stuck with an infinite loading spinner.</td></tr>
-  <tr><td>MUI#H009</td><td align="center">-</td><td align="center">🔴</td><td>"An error occurred" alert appears after successfully completing quests.</td></tr>
+<!-- 🔴 HIGH PRIORITY -->
+<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/3">MUI#H001</a></td><td align="center">-</td><td align="center">🔴</td><td>After each match, an advertisement attempts to play but fails to load. This also causes the mouse cursor to lock and disappear on the main UI.</td></tr>
+<tr><td><a href="#">MUI#H002</a></td><td align="center">-</td><td align="center">🔴</td><td>Clan chat displays sender names as "Guest" instead of actual usernames.</td></tr>
+<tr><td><a href="#">MUI#H003</a></td><td align="center">-</td><td align="center">🔴</td><td>Language setting changes have no effect even after refresh.</td></tr>
+<tr><td><a href="#">MUI#H004</a></td><td align="center">-</td><td align="center">🔴</td><td>Newly created clans cannot be deleted because there is no delete button for owners.</td></tr>
+<tr><td><a href="#">MUI#H005</a></td><td align="center">-</td><td align="center">🔴</td><td>Watching ads for VGs when opening crates does not add any VGs to the account.</td></tr>
+<tr><td><a href="#">MUI#H006</a></td><td align="center">-</td><td align="center">🔴</td><td>New accounts get logged out randomly, especially after closing and reopening the browser.</td></tr>
+<tr><td><a href="#">MUI#H007</a></td><td align="center">-</td><td align="center">🔴</td><td>Custom matches expire if the creator does not join within ~10 seconds.</td></tr>
+<tr><td><a href="#">MUI#H008</a></td><td align="center">-</td><td align="center">🔴</td><td>Play button sometimes gets stuck with an infinite loading spinner.</td></tr>
+<tr><td><a href="#">MUI#H009</a></td><td align="center">-</td><td align="center">🔴</td><td>"An error occurred" alert appears after successfully completing quests.</td></tr>
 
-  <!-- 🟡 MEDIUM PRIORITY -->
-  <tr><td>MUI#M010</td><td align="center">-</td><td align="center">🟡</td><td>Multiple dances can be selected at the same time in Shop inventory.</td></tr>
-  <tr><td>MUI#M011</td><td align="center">-</td><td align="center">🟡</td><td>No online/offline indicator in the new Friends and Messages system.</td></tr>
-  <tr><td>MUI#M012</td><td align="center">-</td><td align="center">🟡</td><td>Emojis shown before usernames remain even after the emoji is sold.</td></tr>
-  <tr><td>MUI#M013</td><td align="center">-</td><td align="center">🟡</td><td>Inbox does not update in real time: must reopen to see new messages.</td></tr>
-  <tr><td>MUI#M014</td><td align="center">-</td><td align="center">🟡</td><td>Unfavoriting an item triggers a blank alert popup.</td></tr>
-  <tr><td>MUI#M015</td><td align="center">-</td><td align="center">🟡</td><td>Quests may give inconsistent rewards and Kulu’s quest can appear multiple times.</td></tr>
-  <tr><td>MUI#M016</td><td align="center">-</td><td align="center">🟡</td><td>Free skin notification causes visible performance lag while active.</td></tr>
-  <tr><td>MUI#M017</td><td align="center">-</td><td align="center">🟡</td><td>Quest claim button in Profile: Quests does not respond.</td></tr>
-  <tr><td>MUI#M018</td><td align="center">-</td><td align="center">🟡</td><td>Ad reward notifications appear too frequently instead of after cooldown.</td></tr>
-  <tr><td>MUI#M019</td><td align="center">-</td><td align="center">🟡</td><td>Free skin popup stays visible throughout matches and does not disappear.</td></tr>
-  <tr><td>MUI#M020</td><td align="center">-</td><td align="center">🟡</td><td>"Already claimed reward" alert repeatedly appears after refresh.</td></tr>
-  <tr><td>MUI#M021</td><td align="center">-</td><td align="center">🟡</td><td>Irrelevant system alerts appear after page refresh.</td></tr>
-  <tr><td>MUI#M022</td><td align="center">-</td><td align="center">🟡</td><td>LMG cannot be unlocked from loadout even when requirements are met.</td></tr>
+<!-- 🟡 MEDIUM PRIORITY -->
+<tr><td><a href="#">MUI#M010</a></td><td align="center">-</td><td align="center">🟡</td><td>Multiple dances can be selected at the same time in Shop inventory.</td></tr>
+<tr><td><a href="#">MUI#M011</a></td><td align="center">-</td><td align="center">🟡</td><td>No online/offline indicator in the new Friends and Messages system.</td></tr>
+<tr><td><a href="#">MUI#M012</a></td><td align="center">-</td><td align="center">🟡</td><td>Emojis shown before usernames remain even after the emoji is sold.</td></tr>
+<tr><td><a href="#">MUI#M013</a></td><td align="center">-</td><td align="center">🟡</td><td>Inbox does not update in real time: must reopen to see new messages.</td></tr>
+<tr><td><a href="#">MUI#M014</a></td><td align="center">-</td><td align="center">🟡</td><td>Unfavoriting an item triggers a blank alert popup.</td></tr>
+<tr><td><a href="#">MUI#M015</a></td><td align="center">-</td><td align="center">🟡</td><td>Quests may give inconsistent rewards and Kulu’s quest can appear multiple times.</td></tr>
+<tr><td><a href="#">MUI#M016</a></td><td align="center">-</td><td align="center">🟡</td><td>Free skin notification causes visible performance lag while active.</td></tr>
+<tr><td><a href="#">MUI#M017</a></td><td align="center">-</td><td align="center">🟡</td><td>Quest claim button in Profile: Quests does not respond.</td></tr>
+<tr><td><a href="#">MUI#M018</a></td><td align="center">-</td><td align="center">🟡</td><td>Ad reward notifications appear too frequently instead of after cooldown.</td></tr>
+<tr><td><a href="#">MUI#M019</a></td><td align="center">-</td><td align="center">🟡</td><td>Free skin popup stays visible throughout matches and does not disappear.</td></tr>
+<tr><td><a href="#">MUI#M020</a></td><td align="center">-</td><td align="center">🟡</td><td>"Already claimed reward" alert repeatedly appears after refresh.</td></tr>
+<tr><td><a href="#">MUI#M021</a></td><td align="center">-</td><td align="center">🟡</td><td>Irrelevant system alerts appear after page refresh.</td></tr>
+<tr><td><a href="#">MUI#M022</a></td><td align="center">-</td><td align="center">🟡</td><td>LMG cannot be unlocked from loadout even when requirements are met.</td></tr>
 
-  <!-- 🟢 LOW PRIORITY -->
-  <tr><td>MUI#L023</td><td align="center">-</td><td align="center">🟢</td><td>Main UI character model no longer plays idle animations.</td></tr>
-  <tr><td>MUI#L024</td><td align="center">-</td><td align="center">🟢</td><td>Equipped skins sometimes do not visually apply after navigating menus.</td></tr>
-  <tr><td>MUI#L025</td><td align="center">-</td><td align="center">🟢</td><td>No lock icons displayed for locked M4 and AK47 weapons.</td></tr>
-  <tr><td>MUI#L026</td><td align="center">-</td><td align="center">🟢</td><td>Register button logs in users instead of creating a new account.</td></tr>
-  <tr><td>MUI#L027</td><td align="center">-</td><td align="center">🟢</td><td>Friends list shows account age instead of last online time.</td></tr>
-  <tr><td>MUI#L028</td><td align="center">-</td><td align="center">🟢</td><td>Logging into one sub domain does not log the user into others.</td></tr>
-  <tr><td>MUI#L029</td><td align="center">-</td><td align="center">🟢</td><td>Kulu’s quest appears as a normal quest even after being unlocked.</td></tr>
-  <tr><td>MUI#L030</td><td align="center">-</td><td align="center">🟢</td><td>Multi quick sell does not sell multiple copies even when quantity is entered.</td></tr>
+<!-- 🟢 LOW PRIORITY -->
+<tr><td><a href="#">MUI#L023</a></td><td align="center">-</td><td align="center">🟢</td><td>Main UI character model no longer plays idle animations.</td></tr>
+<tr><td><a href="#">MUI#L024</a></td><td align="center">-</td><td align="center">🟢</td><td>Equipped skins sometimes do not visually apply after navigating menus.</td></tr>
+<tr><td><a href="#">MUI#L025</a></td><td align="center">-</td><td align="center">🟢</td><td>No lock icons displayed for locked M4 and AK47 weapons.</td></tr>
+<tr><td><a href="#">MUI#L026</a></td><td align="center">-</td><td align="center">🟢</td><td>Register button logs in users instead of creating a new account.</td></tr>
+<tr><td><a href="#">MUI#L027</a></td><td align="center">-</td><td align="center">🟢</td><td>Friends list shows account age instead of last online time.</td></tr>
+<tr><td><a href="#">MUI#L028</a></td><td align="center">-</td><td align="center">🟢</td><td>Logging into one sub domain does not log the user into others.</td></tr>
+<tr><td><a href="#">MUI#L029</a></td><td align="center">-</td><td align="center">🟢</td><td>Kulu’s quest appears as a normal quest even after being unlocked.</td></tr>
+<tr><td><a href="#">MUI#L030</a></td><td align="center">-</td><td align="center">🟢</td><td>Multi quick sell does not sell multiple copies even when quantity is entered.</td></tr>
 
-  <!-- FIXED -->
+<!-- FIXED -->
 <tr><td></td></tr>
 <tr><td>Fixed List</td></tr> 
 <tr><td></td></tr>
-  <tr><td>MUI#H031</td><td align="center">Fixed</td><td align="center">✅</td><td>-Ad reward popup exceeding daily limit.</td></tr>
-  <tr><td>MUI#L032</td><td align="center">Fixed</td><td align="center">✅</td><td>-Skin equip delay in inventory.</td></tr>
-  <tr><td>MUI#M033</td><td align="center">Fixed</td><td align="center">✅</td><td>-Resolution range mismatch between menus.</td></tr>
-  <tr><td>MUI#M034</td><td align="center">Fixed</td><td align="center">✅</td><td>-Crate unlock sound playing without enough VGs.</td></tr>
-  <tr><td>MUI#H035</td><td align="center">Fixed</td><td align="center">✅</td><td>-Favorites updating slowly.</td></tr>
-  <tr><td>MUI#H036</td><td align="center">Fixed</td><td align="center">✅</td><td>-In-game inventory not scrollable.</td></tr>
-  <tr><td>MUI#L037</td><td align="center">Fixed</td><td align="center">✅</td><td>-Blocking users in inbox not working.</td></tr>
-  <tr><td>MUI#H038</td><td align="center">Fixed</td><td align="center">✅</td><td>-Daily rewards not giving skins.</td></tr>
-  <tr><td>MUI#L039</td><td align="center">Fixed</td><td align="center">✅</td><td>-Daily rewards claimable without watching ads.</td></tr>
-  <tr><td>MUI#M040</td><td align="center">Fixed</td><td align="center">✅</td><td>-Lighting from previous match affecting main UI.</td></tr>
-  <tr><td>MUI#M041</td><td align="center">Fixed</td><td align="center">✅</td><td>-Password change requiring email change.</td></tr>
-  <tr><td>MUI#M042</td><td align="center">Fixed</td><td align="center">✅</td><td>-Clan info update not saving.</td></tr>
-
+<tr><td><a href="#">MUI#H031</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Ad reward popup exceeding daily limit.</td></tr>
+<tr><td><a href="#">MUI#L032</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Skin equip delay in inventory.</td></tr>
+<tr><td><a href="#">MUI#M033</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Resolution range mismatch between menus.</td></tr>
+<tr><td><a href="#">MUI#M034</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Crate unlock sound playing without enough VGs.</td></tr>
+<tr><td><a href="#">MUI#H035</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Favorites updating slowly.</td></tr>
+<tr><td><a href="#">MUI#H036</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-In-game inventory not scrollable.</td></tr>
+<tr><td><a href="#">MUI#L037</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Blocking users in inbox not working.</td></tr>
+<tr><td><a href="#">MUI#H038</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Daily rewards not giving skins.</td></tr>
+<tr><td><a href="#">MUI#L039</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Daily rewards claimable without watching ads.</td></tr>
+<tr><td><a href="#">MUI#M040</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Lighting from previous match affecting main UI.</td></tr>
+<tr><td><a href="#">MUI#M041</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Password change requiring email change.</td></tr>
+<tr><td><a href="#">MUI#M042</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Clan info update not saving.</td></tr>
 </table>
 
 
