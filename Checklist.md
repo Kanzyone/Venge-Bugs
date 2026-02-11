@@ -167,108 +167,108 @@ Includes bugs that occur during active gameplay such as HUD problems, animations
 <tr><td>ING#H011</td><td align="center">-</td><td align="center">🔴</td><td>Black screen sometimes appears after matchmaking completes, preventing the match from loading properly.</td></tr>
 <tr><td>ING#H012</td><td align="center">-</td><td align="center">🔴</td><td>Clicking a clan member’s name in the in-game report menu does not open their profile due to clan tag formatting.</td></tr>
 <tr><td>ING#H013</td><td align="center">-</td><td align="center">🔴</td><td>Logging out of the account does not fully log the player out in-game unless the page is manually refreshed.</td></tr>
-<tr><td>ING#H013</td><td align="center">-</td><td align="center">🔴</td><td>Several in-game character voice lines do not play, although subtitles still appear on screen.</td></tr>
-<tr><td>ING#H014</td><td align="center">-</td><td align="center">🔴</td><td>Knife rank icon in GunGame does not appear on the in-game leaderboard.</td></tr>
-<tr><td>ING#H015</td><td align="center">-</td><td align="center">🔴</td><td>After Sierra loading screen appears, the screen sometimes turns completely black with only the chatbox visible.</td></tr>
-<tr><td>ING#H016</td><td align="center">-</td><td align="center">🔴</td><td>Chat messages now stay visible for too long (~30s) and reappear when opening chat again instead of clearing properly.</td></tr>
-<tr><td>ING#H017</td><td align="center">-</td><td align="center">🔴</td><td>After dying once, the advert banner and respawn loader can remain stuck on screen for the rest of the match.</td></tr>
-<tr><td>ING#H018</td><td align="center">-</td><td align="center">🔴</td><td>Guest users are forced to use Shin as the default character; sometimes they get Lilium abilities with Shin cooldown timers.</td></tr>
-<tr><td>ING#H019</td><td align="center">-</td><td align="center">🔴</td><td>No button to switch weapons on mobile; players can only change weapons after dying.</td></tr>
-<tr><td>ING#H020</td><td align="center">-</td><td align="center">🔴</td><td>FPS progressively drops the longer you keep playing consecutive matches (possible memory/performance leak).</td></tr>
-<tr><td>ING#H021</td><td align="center">-</td><td align="center">🔴</td><td>API updates lag or fail; account-related data (current clan, market listings, etc.) updates very late or not at all.</td></tr>
-<tr><td>ING#H022</td><td align="center">-</td><td align="center">🔴</td><td>Many in-game assets are still JSON and not converted to GLB, causing performance and consistency issues.</td></tr>
-<tr><td>ING#H023</td><td align="center">-</td><td align="center">🔴</td><td>Map selection resets to "All" every time you leave a match.</td></tr>
-<tr><td>ING#H024</td><td align="center">-</td><td align="center">🔴</td><td>Same account can join the same lobby multiple times, enabling stat boosting.</td></tr>
-<tr><td>ING#H025</td><td align="center">-</td><td align="center">🔴</td><td>When a player is killed and another joins at the same moment, a non-collidable duplicate character model stands up for a few seconds.</td></tr>
-<tr><td>ING#H026</td><td align="center">-</td><td align="center">🔴</td><td>Colliding with a pre-spawned player can launch the character out of the map due to unstable collision physics.</td></tr>
-<tr><td>ING#H027</td><td align="center">-</td><td align="center">🔴</td><td>Mobile devices can only load/play Sierra; other maps fail to start.</td></tr>
-<tr><td>ING#H028</td><td align="center">-</td><td align="center">🔴</td><td>Anticheat frequently false-kicks legitimate players and reacts slowly to actual hackers.</td></tr>
+<tr><td>ING#H014</td><td align="center">-</td><td align="center">🔴</td><td>Several in-game character voice lines do not play, although subtitles still appear on screen.</td></tr>
+<tr><td>ING#H015</td><td align="center">-</td><td align="center">🔴</td><td>Knife rank icon in GunGame does not appear on the in-game leaderboard.</td></tr>
+<tr><td>ING#H016</td><td align="center">-</td><td align="center">🔴</td><td>After Sierra loading screen appears, the screen sometimes turns completely black with only the chatbox visible.</td></tr>
+<tr><td>ING#H017</td><td align="center">-</td><td align="center">🔴</td><td>Chat messages now stay visible for too long (~30s) and reappear when opening chat again instead of clearing properly.</td></tr>
+<tr><td>ING#H018</td><td align="center">-</td><td align="center">🔴</td><td>After dying once, the advert banner and respawn loader can remain stuck on screen for the rest of the match.</td></tr>
+<tr><td>ING#H019</td><td align="center">-</td><td align="center">🔴</td><td>Guest users are forced to use Shin as the default character; sometimes they get Lilium abilities with Shin cooldown timers.</td></tr>
+<tr><td>ING#H020</td><td align="center">-</td><td align="center">🔴</td><td>No button to switch weapons on mobile; players can only change weapons after dying.</td></tr>
+<tr><td>ING#H021</td><td align="center">-</td><td align="center">🔴</td><td>FPS progressively drops the longer you keep playing consecutive matches (possible memory/performance leak).</td></tr>
+<tr><td>ING#H022</td><td align="center">-</td><td align="center">🔴</td><td>API updates lag or fail; account-related data (current clan, market listings, etc.) updates very late or not at all.</td></tr>
+<tr><td>ING#H023</td><td align="center">-</td><td align="center">🔴</td><td>Many in-game assets are still JSON and not converted to GLB, causing performance and consistency issues.</td></tr>
+<tr><td>ING#H024</td><td align="center">-</td><td align="center">🔴</td><td>Map selection resets to "All" every time you leave a match.</td></tr>
+<tr><td>ING#H025</td><td align="center">-</td><td align="center">🔴</td><td>Same account can join the same lobby multiple times, enabling stat boosting.</td></tr>
+<tr><td>ING#H026</td><td align="center">-</td><td align="center">🔴</td><td>When a player is killed and another joins at the same moment, a non-collidable duplicate character model stands up for a few seconds.</td></tr>
+<tr><td>ING#H027</td><td align="center">-</td><td align="center">🔴</td><td>Colliding with a pre-spawned player can launch the character out of the map due to unstable collision physics.</td></tr>
+<tr><td>ING#H028</td><td align="center">-</td><td align="center">🔴</td><td>Mobile devices can only load/play Sierra; other maps fail to start.</td></tr>
+<tr><td>ING#H029</td><td align="center">-</td><td align="center">🔴</td><td>Anticheat frequently false-kicks legitimate players and reacts slowly to actual hackers.</td></tr>
 
 <!-- 🟡 MEDIUM PRIORITY -->
-<tr><td>ING#M028</td><td align="center">-</td><td align="center">🟡</td><td>Direct URLs such as "/?map=MapName" and "/Spectate:CODE" no longer function.</td></tr>
-<tr><td>ING#M029</td><td align="center">-</td><td align="center">🟡</td><td>"Hide Announcements" setting does not hide the in-game free skin notification popup.</td></tr>
-<tr><td>ING#M030</td><td align="center">-</td><td align="center">🟡</td><td>Potions are not visible in matches until the player uses them once.</td></tr>
-<tr><td>ING#M031</td><td align="center">-</td><td align="center">🟡</td><td>Animated texture skins (e.g., Blaze Scar, OLED Tec-9) sometimes play choppy or laggy animations.</td></tr>
-<tr><td>ING#M032</td><td align="center">-</td><td align="center">🟡</td><td>Lighting does not properly affect weapons and hands in official maps; models appear flat regardless of player rotation.</td></tr>
-<tr><td>ING#M033</td><td align="center">-</td><td align="center">🟡</td><td>Terrain lighting looks incorrect on bright skybox maps; shadows appear missing or too weak.</td></tr>
-<tr><td>ING#M034</td><td align="center">-</td><td align="center">🟡</td><td>When a new enemy spawns and you aim at them immediately, they sometimes disappear and relocate to another spawn point.</td></tr>
-<tr><td>ING#M035</td><td align="center">-</td><td align="center">🟡</td><td>Censor Username setting only hides names on the in-game leaderboard; usernames still appear in kill-feed and report lists.</td></tr>
-<tr><td>ING#M036</td><td align="center">-</td><td align="center">🟡</td><td>LMG reload time does not match the on-screen reload countdown timer.</td></tr>
-<tr><td>ING#M037</td><td align="center">-</td><td align="center">🟡</td><td>Crack-Hole visual effect sometimes remains floating mid-air after a player is hit with melee or throwable.</td></tr>
-<tr><td>ING#M038</td><td align="center">-</td><td align="center">🟡</td><td>Lilium’s frost bomb overlay does not scale properly with higher FOV or narrower screens, leaving parts of the screen uncovered.</td></tr>
-<tr><td>ING#M039</td><td align="center">-</td><td align="center">🟡</td><td>Sprays no longer appear or function during matches.</td></tr>
-<tr><td>ING#M040</td><td align="center">-</td><td align="center">🟡</td><td>Ad-reward failure message is sent as a public chat message; it should be a console/system message visible only to the player.</td></tr>
-<tr><td>ING#M041</td><td align="center">-</td><td align="center">🟡</td><td>HP display sometimes shows 0 HP while the player is still alive.</td></tr>
-<tr><td>ING#M042</td><td align="center">-</td><td align="center">🟡</td><td>If killed while using an emote, the player cannot use emotes again for the rest of the match.</td></tr>
-<tr><td>ING#M043</td><td align="center">-</td><td align="center">🟡</td><td>Map shadows use render distance instead of being static for terrain/objects, causing visual inconsistency.</td></tr>
-<tr><td>ING#M044</td><td align="center">-</td><td align="center">🟡</td><td>First capture point in Sierra does not register score when standing inside it after joining a match.</td></tr>
-<tr><td>ING#M045</td><td align="center">-</td><td align="center">🟡</td><td>Some map elements appear overly bright due to reflectivity issues (spinning circle, potions, grenades, etc.).</td></tr>
-<tr><td>ING#M046</td><td align="center">-</td><td align="center">🟡</td><td>After dying and falling, the equipped character skin briefly switches to the default skin.</td></tr>
-<tr><td>ING#M047</td><td align="center">-</td><td align="center">🟡</td><td>Glider can bug out and allow the player to glide on the ground if its collider is triggered repeatedly.</td></tr>
-<tr><td>ING#M048</td><td align="center">-</td><td align="center">🟡</td><td>If weapon inspect is interrupted by dancing, shooting, or using abilities, inspect becomes unavailable for the rest of the match.</td></tr>
-<tr><td>ING#M049</td><td align="center">-</td><td align="center">🟡</td><td>Suicides in GunGame are incorrectly counted as kills and the rank-kill counter increases indefinitely.</td></tr>
-<tr><td>ING#M050</td><td align="center">-</td><td align="center">🟡</td><td>Players can still emote after dying once, but then permanently lose the ability to emote for the rest of the match.</td></tr>
-<tr><td>ING#M051</td><td align="center">-</td><td align="center">🟡</td><td>If scoped in when the match ends, the sniper scope overlay remains above the results UI.</td></tr>
-<tr><td>ING#M052</td><td align="center">-</td><td align="center">🟡</td><td>A glitchy timer audio continues playing repeatedly after death.</td></tr>
-<tr><td>ING#M053</td><td align="center">-</td><td align="center">🟡</td><td>In GunGame, a rank-up kill is shown in the kill-feed as if it was made with the next weapon instead of the current one.</td></tr>
-<tr><td>ING#M054</td><td align="center">-</td><td align="center">🟡</td><td>Enemies visually appear to hold the SCAR even when another weapon is equipped.</td></tr>
-<tr><td>ING#M055</td><td align="center">-</td><td align="center">🟡</td><td>Ground crack, totems, and capture points always stay horizontal and do not align with sloped terrain.</td></tr>
-<tr><td>ING#M056</td><td align="center">-</td><td align="center">🟡</td><td>Wall collisions/hitboxes feel inconsistent; some walls block before contact while others allow clipping close inside pillars.</td></tr>
-<tr><td>ING#M057</td><td align="center">-</td><td align="center">🟡</td><td>Mistle map never appears in end-game map voting; it should be included alongside Sierra, Tundra, and Temple.</td></tr>
+<tr><td>ING#M030</td><td align="center">-</td><td align="center">🟡</td><td>Direct URLs such as "/?map=MapName" and "/Spectate:CODE" no longer function.</td></tr>
+<tr><td>ING#M031</td><td align="center">-</td><td align="center">🟡</td><td>"Hide Announcements" setting does not hide the in-game free skin notification popup.</td></tr>
+<tr><td>ING#M032</td><td align="center">-</td><td align="center">🟡</td><td>Potions are not visible in matches until the player uses them once.</td></tr>
+<tr><td>ING#M033</td><td align="center">-</td><td align="center">🟡</td><td>Animated texture skins (e.g., Blaze Scar, OLED Tec-9) sometimes play choppy or laggy animations.</td></tr>
+<tr><td>ING#M034</td><td align="center">-</td><td align="center">🟡</td><td>Lighting does not properly affect weapons and hands in official maps; models appear flat regardless of player rotation.</td></tr>
+<tr><td>ING#M035</td><td align="center">-</td><td align="center">🟡</td><td>Terrain lighting looks incorrect on bright skybox maps; shadows appear missing or too weak.</td></tr>
+<tr><td>ING#M036</td><td align="center">-</td><td align="center">🟡</td><td>When a new enemy spawns and you aim at them immediately, they sometimes disappear and relocate to another spawn point.</td></tr>
+<tr><td>ING#M037</td><td align="center">-</td><td align="center">🟡</td><td>Censor Username setting only hides names on the in-game leaderboard; usernames still appear in kill-feed and report lists.</td></tr>
+<tr><td>ING#M038</td><td align="center">-</td><td align="center">🟡</td><td>LMG reload time does not match the on-screen reload countdown timer.</td></tr>
+<tr><td>ING#M039</td><td align="center">-</td><td align="center">🟡</td><td>Crack-Hole visual effect sometimes remains floating mid-air after a player is hit with melee or throwable.</td></tr>
+<tr><td>ING#M040</td><td align="center">-</td><td align="center">🟡</td><td>Lilium’s frost bomb overlay does not scale properly with higher FOV or narrower screens, leaving parts of the screen uncovered.</td></tr>
+<tr><td>ING#M040</td><td align="center">-</td><td align="center">🟡</td><td>Sprays no longer appear or function during matches.</td></tr>
+<tr><td>ING#M041</td><td align="center">-</td><td align="center">🟡</td><td>Ad-reward failure message is sent as a public chat message; it should be a console/system message visible only to the player.</td></tr>
+<tr><td>ING#M042</td><td align="center">-</td><td align="center">🟡</td><td>HP display sometimes shows 0 HP while the player is still alive.</td></tr>
+<tr><td>ING#M043</td><td align="center">-</td><td align="center">🟡</td><td>If killed while using an emote, the player cannot use emotes again for the rest of the match.</td></tr>
+<tr><td>ING#M044</td><td align="center">-</td><td align="center">🟡</td><td>Map shadows use render distance instead of being static for terrain/objects, causing visual inconsistency.</td></tr>
+<tr><td>ING#M045</td><td align="center">-</td><td align="center">🟡</td><td>First capture point in Sierra does not register score when standing inside it after joining a match.</td></tr>
+<tr><td>ING#M046</td><td align="center">-</td><td align="center">🟡</td><td>Some map elements appear overly bright due to reflectivity issues (spinning circle, potions, grenades, etc.).</td></tr>
+<tr><td>ING#M047</td><td align="center">-</td><td align="center">🟡</td><td>After dying and falling, the equipped character skin briefly switches to the default skin.</td></tr>
+<tr><td>ING#M048</td><td align="center">-</td><td align="center">🟡</td><td>Glider can bug out and allow the player to glide on the ground if its collider is triggered repeatedly.</td></tr>
+<tr><td>ING#M049</td><td align="center">-</td><td align="center">🟡</td><td>If weapon inspect is interrupted by dancing, shooting, or using abilities, inspect becomes unavailable for the rest of the match.</td></tr>
+<tr><td>ING#M050</td><td align="center">-</td><td align="center">🟡</td><td>Suicides in GunGame are incorrectly counted as kills and the rank-kill counter increases indefinitely.</td></tr>
+<tr><td>ING#M051</td><td align="center">-</td><td align="center">🟡</td><td>Players can still emote after dying once, but then permanently lose the ability to emote for the rest of the match.</td></tr>
+<tr><td>ING#M052</td><td align="center">-</td><td align="center">🟡</td><td>If scoped in when the match ends, the sniper scope overlay remains above the results UI.</td></tr>
+<tr><td>ING#M053</td><td align="center">-</td><td align="center">🟡</td><td>A glitchy timer audio continues playing repeatedly after death.</td></tr>
+<tr><td>ING#M054</td><td align="center">-</td><td align="center">🟡</td><td>In GunGame, a rank-up kill is shown in the kill-feed as if it was made with the next weapon instead of the current one.</td></tr>
+<tr><td>ING#M055</td><td align="center">-</td><td align="center">🟡</td><td>Enemies visually appear to hold the SCAR even when another weapon is equipped.</td></tr>
+<tr><td>ING#M056</td><td align="center">-</td><td align="center">🟡</td><td>Ground crack, totems, and capture points always stay horizontal and do not align with sloped terrain.</td></tr>
+<tr><td>ING#M057</td><td align="center">-</td><td align="center">🟡</td><td>Wall collisions/hitboxes feel inconsistent; some walls block before contact while others allow clipping close inside pillars.</td></tr>
+<tr><td>ING#M058</td><td align="center">-</td><td align="center">🟡</td><td>Mistle map never appears in end-game map voting; it should be included alongside Sierra, Tundra, and Temple.</td></tr>
 <tr><td>ING#M058</td><td align="center">-</td><td align="center">🟡</td><td>Kulu’s ground crack and totems remain in the match after the Kulu player leaves and cannot be destroyed.</td></tr>
-<tr><td>ING#M059</td><td align="center">-</td><td align="center">🟡</td><td>When an ad-reward weapon is equipped, you cannot switch back to the default primary without switching to another slot first.</td></tr>
-<tr><td>ING#M060</td><td align="center">-</td><td align="center">🟡</td><td>Assist column on end-game K/D/A is always 0 since there is no assist mechanic implemented.</td></tr>
-<tr><td>ING#M061</td><td align="center">-</td><td align="center">🟡</td><td>Hackers flagged for cheating are not immediately removed; they remain until kicked for being AFK.</td></tr>
-<tr><td>ING#M062</td><td align="center">-</td><td align="center">🟡</td><td>Sniper scope glitches if RMB is spammed while switching weapons at the same time.</td></tr>
-<tr><td>ING#M063</td><td align="center">-</td><td align="center">🟡</td><td>Skin thumbnails sometimes fail to load on the in-game leaderboard and end-game scoreboard.</td></tr>
-<tr><td>ING#M064</td><td align="center">-</td><td align="center">🟡</td><td>Objective timer is inaccurate; UI shows ~15s while actual time to next objective is often 20–30s.</td></tr>
-<tr><td>ING#M065</td><td align="center">-</td><td align="center">🟡</td><td>Character rigging issues: the body can cover most of the screen while reloading, inspecting, or using throwables.</td></tr>
-<tr><td>ING#M066</td><td align="center">-</td><td align="center">🟡</td><td>Match may start with SCAR even when M4/AK47 is selected as the primary loadout.</td></tr>
-<tr><td>ING#M067</td><td align="center">-</td><td align="center">🟡</td><td>Ability cooldown indicators can disappear if ability keys are spammed, reappearing only after cooldown resets.</td></tr>
-<tr><td>ING#M068</td><td align="center">-</td><td align="center">🟡</td><td>In-game chat filter is overly aggressive; normal words like “assumption” get partially censored.</td></tr>
-<tr><td>ING#M069</td><td align="center">-</td><td align="center">🟡</td><td>"Turn off shadows" setting does not disable map shadows; they remain visible.</td></tr>
-<tr><td>ING#M070</td><td align="center">-</td><td align="center">🟡</td><td>Joining at the last second can cause assets from two maps to load together (map overlap).</td></tr>
+<tr><td>ING#M060</td><td align="center">-</td><td align="center">🟡</td><td>When an ad-reward weapon is equipped, you cannot switch back to the default primary without switching to another slot first.</td></tr>
+<tr><td>ING#M061</td><td align="center">-</td><td align="center">🟡</td><td>Assist column on end-game K/D/A is always 0 since there is no assist mechanic implemented.</td></tr>
+<tr><td>ING#M062</td><td align="center">-</td><td align="center">🟡</td><td>Hackers flagged for cheating are not immediately removed; they remain until kicked for being AFK.</td></tr>
+<tr><td>ING#M063</td><td align="center">-</td><td align="center">🟡</td><td>Sniper scope glitches if RMB is spammed while switching weapons at the same time.</td></tr>
+<tr><td>ING#M064</td><td align="center">-</td><td align="center">🟡</td><td>Skin thumbnails sometimes fail to load on the in-game leaderboard and end-game scoreboard.</td></tr>
+<tr><td>ING#M065</td><td align="center">-</td><td align="center">🟡</td><td>Objective timer is inaccurate; UI shows ~15s while actual time to next objective is often 20–30s.</td></tr>
+<tr><td>ING#M066</td><td align="center">-</td><td align="center">🟡</td><td>Character rigging issues: the body can cover most of the screen while reloading, inspecting, or using throwables.</td></tr>
+<tr><td>ING#M067</td><td align="center">-</td><td align="center">🟡</td><td>Match may start with SCAR even when M4/AK47 is selected as the primary loadout.</td></tr>
+<tr><td>ING#M068</td><td align="center">-</td><td align="center">🟡</td><td>Ability cooldown indicators can disappear if ability keys are spammed, reappearing only after cooldown resets.</td></tr>
+<tr><td>ING#M069</td><td align="center">-</td><td align="center">🟡</td><td>In-game chat filter is overly aggressive; normal words like “assumption” get partially censored.</td></tr>
+<tr><td>ING#M070</td><td align="center">-</td><td align="center">🟡</td><td>"Turn off shadows" setting does not disable map shadows; they remain visible.</td></tr>
+<tr><td>ING#M071</td><td align="center">-</td><td align="center">🟡</td><td>Joining at the last second can cause assets from two maps to load together (map overlap).</td></tr>
 
 <!-- 🟢 LOW PRIORITY -->
-<tr><td>ING#L080</td><td align="center">-</td><td align="center">🟢</td><td>Charms can clip into weapon models when moving, jumping, or turning at certain angles.</td></tr>
-<tr><td>ING#L081</td><td align="center">-</td><td align="center">🟢</td><td>Dagger no longer displays a rank icon in Gungame mode.</td></tr>
-<tr><td>ING#L082</td><td align="center">-</td><td align="center">🟢</td><td>Some skins (e.g., Valentine M4 and Sniper) appear overly reflective in-game.</td></tr>
-<tr><td>ING#L083</td><td align="center">-</td><td align="center">🟢</td><td>Ammo count for AWP in Gungame sometimes displays as 0/undefined.</td></tr>
-<tr><td>ING#L084</td><td align="center">-</td><td align="center">🟢</td><td>Ground terrain sometimes renders in rainbow/heatmap-like colors.</td></tr>
-<tr><td>ING#L085</td><td align="center">-</td><td align="center">🟢</td><td>Birds in maps sometimes do not fly away even when players approach them.</td></tr>
-<tr><td>ING#L086</td><td align="center">-</td><td align="center">🟢</td><td>Charms can clip through weapon models at certain angles or during fast movement.</td></tr>
-<tr><td>ING#L087</td><td align="center">-</td><td align="center">🟢</td><td>Character hands occasionally disappear even when "Hide Hands and Weapons" is turned off.</td></tr>
-<tr><td>ING#L088</td><td align="center">-</td><td align="center">🟢</td><td>Characters have no visible shadows or reflections in certain conditions.</td></tr>
-<tr><td>ING#L088</td><td align="center">-</td><td align="center">🟢</td><td>Timebomb hand placement is misaligned in custom maps and can offset weapon positioning after switching.</td></tr>
-<tr><td>ING#L089</td><td align="center">-</td><td align="center">🟢</td><td>Running animations sometimes freeze or stutter.</td></tr>
-<tr><td>ING#L090</td><td align="center">-</td><td align="center">🟢</td><td>Default skin sometimes appears while gliding instead of the equipped one.</td></tr>
-<tr><td>ING#L091</td><td align="center">-</td><td align="center">🟢</td><td>Weapon models appear positioned further forward than before, reducing realism.</td></tr>
-<tr><td>ING#L092</td><td align="center">-</td><td align="center">🟢</td><td>Kulu/Shin sometimes display infinite damage numbers.</td></tr>
-<tr><td>ING#L093</td><td align="center">-</td><td align="center">🟢</td><td>If a player joins right after a match ends, the map voting progress bar can visually bug out.</td></tr>
-<tr><td>ING#L094</td><td align="center">-</td><td align="center">🟢</td><td>Some character skins (e.g., Egyptian Kulu) are slightly shorter, giving a minor hitbox advantage.</td></tr>
-<tr><td>ING#L095</td><td align="center">-</td><td align="center">🟢</td><td>Sniper scope lens no longer appears reflective and looks static.</td></tr>
+<tr><td>ING#L072</td><td align="center">-</td><td align="center">🟢</td><td>Charms can clip into weapon models when moving, jumping, or turning at certain angles.</td></tr>
+<tr><td>ING#L073</td><td align="center">-</td><td align="center">🟢</td><td>Dagger no longer displays a rank icon in Gungame mode.</td></tr>
+<tr><td>ING#L074</td><td align="center">-</td><td align="center">🟢</td><td>Some skins (e.g., Valentine M4 and Sniper) appear overly reflective in-game.</td></tr>
+<tr><td>ING#L075</td><td align="center">-</td><td align="center">🟢</td><td>Ammo count for AWP in Gungame sometimes displays as 0/undefined.</td></tr>
+<tr><td>ING#L076</td><td align="center">-</td><td align="center">🟢</td><td>Ground terrain sometimes renders in rainbow/heatmap-like colors.</td></tr>
+<tr><td>ING#L077</td><td align="center">-</td><td align="center">🟢</td><td>Birds in maps sometimes do not fly away even when players approach them.</td></tr>
+<tr><td>ING#L078</td><td align="center">-</td><td align="center">🟢</td><td>Charms can clip through weapon models at certain angles or during fast movement.</td></tr>
+<tr><td>ING#L079</td><td align="center">-</td><td align="center">🟢</td><td>Character hands occasionally disappear even when "Hide Hands and Weapons" is turned off.</td></tr>
+<tr><td>ING#L080</td><td align="center">-</td><td align="center">🟢</td><td>Characters have no visible shadows or reflections in certain conditions.</td></tr>
+<tr><td>ING#L081</td><td align="center">-</td><td align="center">🟢</td><td>Timebomb hand placement is misaligned in custom maps and can offset weapon positioning after switching.</td></tr>
+<tr><td>ING#L082</td><td align="center">-</td><td align="center">🟢</td><td>Running animations sometimes freeze or stutter.</td></tr>
+<tr><td>ING#L083</td><td align="center">-</td><td align="center">🟢</td><td>Default skin sometimes appears while gliding instead of the equipped one.</td></tr>
+<tr><td>ING#L084</td><td align="center">-</td><td align="center">🟢</td><td>Weapon models appear positioned further forward than before, reducing realism.</td></tr>
+<tr><td>ING#L085</td><td align="center">-</td><td align="center">🟢</td><td>Kulu/Shin sometimes display infinite damage numbers.</td></tr>
+<tr><td>ING#L086</td><td align="center">-</td><td align="center">🟢</td><td>If a player joins right after a match ends, the map voting progress bar can visually bug out.</td></tr>
+<tr><td>ING#L087</td><td align="center">-</td><td align="center">🟢</td><td>Some character skins (e.g., Egyptian Kulu) are slightly shorter, giving a minor hitbox advantage.</td></tr>
+<tr><td>ING#L088</td><td align="center">-</td><td align="center">🟢</td><td>Sniper scope lens no longer appears reflective and looks static.</td></tr>
 
 <!-- FIXED -->
 <tr><td></td></tr>
 <tr><td>Fixed List</td></tr> 
 <tr><td></td></tr>
-<tr><td>ING#H096</td><td align="center">Fixed</td><td align="center">✅</td><td>Enemy HP bars sometimes disappeared in the next match after voting for a new map.</td></tr>
-<tr><td>ING#M097</td><td align="center">Fixed</td><td align="center">✅</td><td>Reflectivity issues where ground, rocks, and characters appeared overly reflective.</td></tr>
-<tr><td>ING#M098</td><td align="center">Fixed</td><td align="center">✅</td><td>Respawning after death previously took too long (~10 seconds).</td></tr>
-<tr><td>ING#M099</td><td align="center">Fixed</td><td align="center">✅</td><td>Bounce pad allowed higher jumps when pressing space at the moment of landing.</td></tr>
-<tr><td>ING#M100</td><td align="center">Fixed</td><td align="center">✅</td><td>Chat messages disappeared too quickly; duration was adjusted.</td></tr>
-<tr><td>ING#H102</td><td align="center">Fixed</td><td align="center">✅</td><td>AK47 Hypothermia skin texture was missing (404) and not rendering in-game.</td></tr>
-<tr><td>ING#L103</td><td align="center">Fixed</td><td align="center">✅</td><td>Controller players experienced sudden crosshair flicks after each kill.</td></tr>
-<tr><td>ING#M104</td><td align="center">Fixed</td><td align="center">✅</td><td>Gun fire-rate was incorrectly tied to FPS and varied depending on performance.</td></tr>
-<tr><td>ING#L105</td><td align="center">Fixed</td><td align="center">✅</td><td>Character skin thumbnails sometimes did not appear on the in-game leaderboard.</td></tr>
-<tr><td>ING#H106</td><td align="center">Fixed</td><td align="center">✅</td><td>Damage from weapons, throwables, and melee occasionally went unregistered.</td></tr>
-<tr><td>ING#M107</td><td align="center">Fixed</td><td align="center">✅</td><td>Only Sierra could be played even when other maps were selected.</td></tr>
-<tr><td>ING#H108</td><td align="center">Fixed</td><td align="center">✅</td><td>Valentine 2023 skins were not rendering/working in-game.</td></tr>
-<tr><td>ING#H109</td><td align="center">Fixed</td><td align="center">✅</td><td>3rd anniversary skins did not work (only charms were visible).</td></tr>
-<tr><td>ING#L110</td><td align="center">Fixed</td><td align="center">✅</td><td>Kill-feed entries sometimes got stuck on the HUD.</td></tr>
-<tr><td>ING#H111</td><td align="center">Fixed</td><td align="center">✅</td><td>Overall audio volume suddenly maxed out after leaving a game.</td></tr>
-<tr><td>ING#M112</td><td align="center">Fixed</td><td align="center">✅</td><td>Ability icons on mobile did not change per character (always showed Lilium icons).</td></tr>
-<tr><td>ING#M113</td><td align="center">Fixed</td><td align="center">✅</td><td>Camera could not be moved while dancing in-game.</td></tr>
+<tr><td>ING#H089</td><td align="center">Fixed</td><td align="center">✅</td><td>Enemy HP bars sometimes disappeared in the next match after voting for a new map.</td></tr>
+<tr><td>ING#M090</td><td align="center">Fixed</td><td align="center">✅</td><td>Reflectivity issues where ground, rocks, and characters appeared overly reflective.</td></tr>
+<tr><td>ING#M091</td><td align="center">Fixed</td><td align="center">✅</td><td>Respawning after death previously took too long (~10 seconds).</td></tr>
+<tr><td>ING#M092</td><td align="center">Fixed</td><td align="center">✅</td><td>Bounce pad allowed higher jumps when pressing space at the moment of landing.</td></tr>
+<tr><td>ING#M093</td><td align="center">Fixed</td><td align="center">✅</td><td>Chat messages disappeared too quickly; duration was adjusted.</td></tr>
+<tr><td>ING#H094</td><td align="center">Fixed</td><td align="center">✅</td><td>AK47 Hypothermia skin texture was missing (404) and not rendering in-game.</td></tr>
+<tr><td>ING#L095</td><td align="center">Fixed</td><td align="center">✅</td><td>Controller players experienced sudden crosshair flicks after each kill.</td></tr>
+<tr><td>ING#M096</td><td align="center">Fixed</td><td align="center">✅</td><td>Gun fire-rate was incorrectly tied to FPS and varied depending on performance.</td></tr>
+<tr><td>ING#L097</td><td align="center">Fixed</td><td align="center">✅</td><td>Character skin thumbnails sometimes did not appear on the in-game leaderboard.</td></tr>
+<tr><td>ING#H098</td><td align="center">Fixed</td><td align="center">✅</td><td>Damage from weapons, throwables, and melee occasionally went unregistered.</td></tr>
+<tr><td>ING#M099</td><td align="center">Fixed</td><td align="center">✅</td><td>Only Sierra could be played even when other maps were selected.</td></tr>
+<tr><td>ING#H100</td><td align="center">Fixed</td><td align="center">✅</td><td>Valentine 2023 skins were not rendering/working in-game.</td></tr>
+<tr><td>ING#H101</td><td align="center">Fixed</td><td align="center">✅</td><td>3rd anniversary skins did not work (only charms were visible).</td></tr>
+<tr><td>ING#L102</td><td align="center">Fixed</td><td align="center">✅</td><td>Kill-feed entries sometimes got stuck on the HUD.</td></tr>
+<tr><td>ING#H103</td><td align="center">Fixed</td><td align="center">✅</td><td>Overall audio volume suddenly maxed out after leaving a game.</td></tr>
+<tr><td>ING#M104</td><td align="center">Fixed</td><td align="center">✅</td><td>Ability icons on mobile did not change per character (always showed Lilium icons).</td></tr>
+<tr><td>ING#M105</td><td align="center">Fixed</td><td align="center">✅</td><td>Camera could not be moved while dancing in-game.</td></tr>
 
 </table>
 
