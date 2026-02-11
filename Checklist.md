@@ -121,18 +121,18 @@ Covers issues related to the main interface outside of gameplay, including menus
 <tr><td></td></tr>
 <tr><td>Fixed List</td></tr> 
 <tr><td></td></tr>
-<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/33">MUI#H031</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Ad reward popup exceeding daily limit.</td></tr>
-<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/34">MUI#L032</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Skin equip delay in inventory.</td></tr>
-<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/35">MUI#M033</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Resolution range mismatch between menus.</td></tr>
-<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/36">MUI#M034</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Crate unlock sound playing without enough VGs.</td></tr>
-<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/37">MUI#H035</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Favorites updating slowly.</td></tr>
-<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/38">MUI#H036</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-In-game inventory not scrollable.</td></tr>
-<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/39">MUI#L037</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Blocking users in inbox not working.</td></tr>
-<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/40">MUI#H038</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Daily rewards not giving skins.</td></tr>
-<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/41">MUI#L039</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Daily rewards claimable without watching ads.</td></tr>
-<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/42">MUI#M040</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Lighting from previous match affecting main UI.</td></tr>
-<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/43">MUI#M041</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Password change requiring email change.</td></tr>
-<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/44">MUI#M042</a></td><td align="center">Fixed</td><td align="center">✅</td><td>-Clan info update not saving.</td></tr>
+<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/33">MUI#H031</a></td><td align="center">Fixed</td><td align="center">✅</td><td>Ad reward popup exceeding daily limit.</td></tr>
+<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/34">MUI#L032</a></td><td align="center">Fixed</td><td align="center">✅</td><td>Skin equip delay in inventory.</td></tr>
+<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/35">MUI#M033</a></td><td align="center">Fixed</td><td align="center">✅</td><td>Resolution range mismatch between menus.</td></tr>
+<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/36">MUI#M034</a></td><td align="center">Fixed</td><td align="center">✅</td><td>Crate unlock sound playing without enough VGs.</td></tr>
+<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/37">MUI#H035</a></td><td align="center">Fixed</td><td align="center">✅</td><td>Favorites updating slowly.</td></tr>
+<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/38">MUI#H036</a></td><td align="center">Fixed</td><td align="center">✅</td><td>In-game inventory not scrollable.</td></tr>
+<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/39">MUI#L037</a></td><td align="center">Fixed</td><td align="center">✅</td><td>Blocking users in inbox not working.</td></tr>
+<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/40">MUI#H038</a></td><td align="center">Fixed</td><td align="center">✅</td><td>Daily rewards not giving skins.</td></tr>
+<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/41">MUI#L039</a></td><td align="center">Fixed</td><td align="center">✅</td><td>Daily rewards claimable without watching ads.</td></tr>
+<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/42">MUI#M040</a></td><td align="center">Fixed</td><td align="center">✅</td><td>Lighting from previous match affecting main UI.</td></tr>
+<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/43">MUI#M041</a></td><td align="center">Fixed</td><td align="center">✅</td><td>Password change requiring email change.</td></tr>
+<tr><td><a href="https://github.com/Kanzyone/issues-vengebugs/issues/44">MUI#M042</a></td><td align="center">Fixed</td><td align="center">✅</td><td>Clan info update not saving.</td></tr>
 </table>
 
 
@@ -252,23 +252,23 @@ Includes bugs that occur during active gameplay such as HUD problems, animations
 <tr><td></td></tr>
 <tr><td>Fixed List</td></tr> 
 <tr><td></td></tr>
-<tr><td>ING#H096</td><td align="center">Fixed</td><td align="center">✅</td><td>-Enemy HP bars sometimes disappeared in the next match after voting for a new map.</td></tr>
-<tr><td>ING#M097</td><td align="center">Fixed</td><td align="center">✅</td><td>-Reflectivity issues where ground, rocks, and characters appeared overly reflective.</td></tr>
-<tr><td>ING#M098</td><td align="center">Fixed</td><td align="center">✅</td><td>-Respawning after death previously took too long (~10 seconds).</td></tr>
-<tr><td>ING#M099</td><td align="center">Fixed</td><td align="center">✅</td><td>-Bounce pad allowed higher jumps when pressing space at the moment of landing.</td></tr>
-<tr><td>ING#M100</td><td align="center">Fixed</td><td align="center">✅</td><td>-Chat messages disappeared too quickly; duration was adjusted.</td></tr>
-<tr><td>ING#H102</td><td align="center">Fixed</td><td align="center">✅</td><td>-AK47 Hypothermia skin texture was missing (404) and not rendering in-game.</td></tr>
-<tr><td>ING#L103</td><td align="center">Fixed</td><td align="center">✅</td><td>-Controller players experienced sudden crosshair flicks after each kill.</td></tr>
-<tr><td>ING#M104</td><td align="center">Fixed</td><td align="center">✅</td><td>-Gun fire-rate was incorrectly tied to FPS and varied depending on performance.</td></tr>
-<tr><td>ING#L105</td><td align="center">Fixed</td><td align="center">✅</td><td>-Character skin thumbnails sometimes did not appear on the in-game leaderboard.</td></tr>
-<tr><td>ING#H106</td><td align="center">Fixed</td><td align="center">✅</td><td>-Damage from weapons, throwables, and melee occasionally went unregistered.</td></tr>
-<tr><td>ING#M107</td><td align="center">Fixed</td><td align="center">✅</td><td>-Only Sierra could be played even when other maps were selected.</td></tr>
-<tr><td>ING#H108</td><td align="center">Fixed</td><td align="center">✅</td><td>-Valentine 2023 skins were not rendering/working in-game.</td></tr>
-<tr><td>ING#H109</td><td align="center">Fixed</td><td align="center">✅</td><td>-3rd anniversary skins did not work (only charms were visible).</td></tr>
-<tr><td>ING#L110</td><td align="center">Fixed</td><td align="center">✅</td><td>-Kill-feed entries sometimes got stuck on the HUD.</td></tr>
-<tr><td>ING#H111</td><td align="center">Fixed</td><td align="center">✅</td><td>-Overall audio volume suddenly maxed out after leaving a game.</td></tr>
-<tr><td>ING#M112</td><td align="center">Fixed</td><td align="center">✅</td><td>-Ability icons on mobile did not change per character (always showed Lilium icons).</td></tr>
-<tr><td>ING#M113</td><td align="center">Fixed</td><td align="center">✅</td><td>-Camera could not be moved while dancing in-game.</td></tr>
+<tr><td>ING#H096</td><td align="center">Fixed</td><td align="center">✅</td><td>Enemy HP bars sometimes disappeared in the next match after voting for a new map.</td></tr>
+<tr><td>ING#M097</td><td align="center">Fixed</td><td align="center">✅</td><td>Reflectivity issues where ground, rocks, and characters appeared overly reflective.</td></tr>
+<tr><td>ING#M098</td><td align="center">Fixed</td><td align="center">✅</td><td>Respawning after death previously took too long (~10 seconds).</td></tr>
+<tr><td>ING#M099</td><td align="center">Fixed</td><td align="center">✅</td><td>Bounce pad allowed higher jumps when pressing space at the moment of landing.</td></tr>
+<tr><td>ING#M100</td><td align="center">Fixed</td><td align="center">✅</td><td>Chat messages disappeared too quickly; duration was adjusted.</td></tr>
+<tr><td>ING#H102</td><td align="center">Fixed</td><td align="center">✅</td><td>AK47 Hypothermia skin texture was missing (404) and not rendering in-game.</td></tr>
+<tr><td>ING#L103</td><td align="center">Fixed</td><td align="center">✅</td><td>Controller players experienced sudden crosshair flicks after each kill.</td></tr>
+<tr><td>ING#M104</td><td align="center">Fixed</td><td align="center">✅</td><td>Gun fire-rate was incorrectly tied to FPS and varied depending on performance.</td></tr>
+<tr><td>ING#L105</td><td align="center">Fixed</td><td align="center">✅</td><td>Character skin thumbnails sometimes did not appear on the in-game leaderboard.</td></tr>
+<tr><td>ING#H106</td><td align="center">Fixed</td><td align="center">✅</td><td>Damage from weapons, throwables, and melee occasionally went unregistered.</td></tr>
+<tr><td>ING#M107</td><td align="center">Fixed</td><td align="center">✅</td><td>Only Sierra could be played even when other maps were selected.</td></tr>
+<tr><td>ING#H108</td><td align="center">Fixed</td><td align="center">✅</td><td>Valentine 2023 skins were not rendering/working in-game.</td></tr>
+<tr><td>ING#H109</td><td align="center">Fixed</td><td align="center">✅</td><td>3rd anniversary skins did not work (only charms were visible).</td></tr>
+<tr><td>ING#L110</td><td align="center">Fixed</td><td align="center">✅</td><td>Kill-feed entries sometimes got stuck on the HUD.</td></tr>
+<tr><td>ING#H111</td><td align="center">Fixed</td><td align="center">✅</td><td>Overall audio volume suddenly maxed out after leaving a game.</td></tr>
+<tr><td>ING#M112</td><td align="center">Fixed</td><td align="center">✅</td><td>Ability icons on mobile did not change per character (always showed Lilium icons).</td></tr>
+<tr><td>ING#M113</td><td align="center">Fixed</td><td align="center">✅</td><td>Camera could not be moved while dancing in-game.</td></tr>
 
 </table>
 
