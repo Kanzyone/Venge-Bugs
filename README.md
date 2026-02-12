@@ -30,3 +30,13 @@ Due to GitHub limitations with forks, new Issues cannot be created directly here
 To keep bug tracking active and organized, a separate repository named <code><a href="https://github.com/Kanzyone/issues-vengebugs">issues-vengebugs</a></code> is used to create and manage all Issues. After an Issue is opened there, it is manually linked and added to this repository’s Project Board for centralized planning and tracking.
 
 This workflow allows this repository to remain the main hub for organization, status tracking and development overview, while all bug reports are collected in a dedicated space.
+
+<br>
+<br>
+
+# Wiki
+
+This repository includes a dedicated Wiki section that provides structured documentation about known bugs, reporting standards and testing references.
+The Wiki is intended to help readers better understand how issues are identified, categorized, and documented over time. It also explains how bug reports are created, what information is required and how findings from testers and Discord feedback are organized.
+
+If you are looking for detailed explanations, reporting guidelines, or an overview of known issues, please [visit the Wiki](https://github.com/Kanzyone/Venge-Bugs/wiki/Wiki).
