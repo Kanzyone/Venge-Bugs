@@ -32,7 +32,6 @@ To keep bug tracking active and organized, a separate repository named <code><a 
 This workflow allows this repository to remain the main hub for organization, status tracking and development overview, while all bug reports are collected in a dedicated space.
 
 <br>
-<br>
 
 # Wiki
 
