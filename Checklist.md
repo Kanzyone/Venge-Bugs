@@ -1,10 +1,3 @@
-The following sections present the documented issues organized by system category. Each table contains individual bug entries with their identification number, current status, priority level and a short description.
-
-These categorized lists are intended to provide a more detailed and structured view of the issues summarized in the overview above, allowing for easier navigation and tracking across different parts of the game.
-
-
-<br>
-
 <strong id="mainui">Main UI</strong>
 
 Covers issues related to the main interface outside of gameplay, including menus, shop, inventory, login systems, quests, notifications and general user interaction elements.
